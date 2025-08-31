@@ -7,7 +7,7 @@
 title: Tian Zheng, Columbia Statistics
 # Website URL
 baseURL: 'https://sites.stat.columbia.edu/~tzheng/'
-publishDir: '/Users/tianzheng/Library/CloudStorage/Dropbox/Tian_Site/tzstats-2025/public'
+#publishDir: '/Users/tianzheng/Library/CloudStorage/Dropbox/Tian_Site/tzstats-2025/public'
 
 ############################
 ## LANGUAGE
