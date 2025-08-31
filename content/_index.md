@@ -1,39 +1,47 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "tzstats lab @ Columbia"
 date: 2022-10-24
 type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "1rem"
 
 sections:
+  - block: markdown
+    content:
+      title: 'Welcome to TZstats Convergence Lab!'
+      subtitle: ''
+      text: |-
+        Where disciplines, research, and education converge — leveraging today’s data, evaluating emerging tools, developing new methods, and training the next generation of leaders to address real-world challenges.
+    design:
+      columns: '1'
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+      username: tianzheng
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/TianZheng.pdf
     design:
-      css_class: dark
+      # css_class: dark
       # Avatar customization
       avatar:
-        size: medium  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: large  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+      # background:
+      #   color: black
+      #   image:
+      #     # Add your image background to `assets/media/`.
+      #     filename: blues.svg
+      #     filters:
+      #       brightness: 1.0
+      #     size: cover
+      #     position: center
+      #     parallax: false
   - block: markdown
     content:
       title: '📚 My Research'
