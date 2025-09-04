@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "tzstats lab @ Columbia"
+title: "TZstats Lab @ Columbia"
 date: 2022-10-24
 type: landing
 
@@ -14,7 +14,7 @@ sections:
       title: 'Welcome to TZstats Convergence Lab!'
       subtitle: ''
       text: |-
-        Where disciplines, research, and education converge — leveraging today’s data, evaluating emerging tools, developing new methods, and training the next generation of leaders to address real-world challenges.
+        Where disciplines collaborate and research meets education — tackling real-world problems, leveraging today’s data, evaluating emerging tools, developing new methods, and training the next generation of polymath researchers.
     design:
       columns: '1'
   - block: resume-biography-3
