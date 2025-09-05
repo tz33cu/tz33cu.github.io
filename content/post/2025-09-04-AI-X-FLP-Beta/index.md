@@ -40,7 +40,9 @@ deployment of AI that is contextualized in individual disciplines).
 
 ## Year Beta
 
-During the 2025-2026 academic year, as a Provost Senior Leadership Fellow in the Office of Vice Provost of Faculty Advancement, we are launching a **Year Beta** towards this vision. 
+During the 2025-2026 academic year, as a Provost Senior Leadership Fellow in the Office of Vice Provost of Faculty Advancement, I am launching a **Year Beta** towards this vision. 
+
+![AI+X Faculty Leadership Fellows Program Year Beta Members](program.png)
 
 ### Yeat Beta Mission
 
@@ -48,4 +50,3 @@ Develop a program with strong potential for success and effectiveness in meeting
 
 I feel extremely fortunate to be working with a group of devoted leaders on this important work. 
 
-![AI+X Faculty Leadership Fellows Program Year Beta Members](program.png)
