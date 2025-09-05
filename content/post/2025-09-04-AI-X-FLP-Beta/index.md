@@ -1,5 +1,5 @@
 ---
-title: AI+X Faculty Leadership Fellows Program - Year Beta
+title: "AI+X Faculty Leadership Fellows Program - Year Beta"
 summary: 
 date: 2025-09-04
 
