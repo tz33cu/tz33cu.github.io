@@ -9,7 +9,7 @@ image:
   caption: 'AI+X Faculty Leadership Program: A New Faculty Advancement Initiative'
 
 authors:
-  - admin
+  - tianzheng
 
 tags:
   - Leadership

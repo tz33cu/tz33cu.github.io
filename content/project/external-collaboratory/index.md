@@ -2,7 +2,7 @@
 title: "Collaboratory at Columbia - An Aspen Grove of Data Science Education"
 date: 2018-07-01
 authors:
-  - admin
+  - tianzheng
 links:
   - type: site
     url: https://entrepreneurship.columbia.edu/collaboratory/

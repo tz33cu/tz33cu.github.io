@@ -1,10 +1,10 @@
 ---
 title: 'Discussing "Statistics and AI" on Podcast: Practical Significance (April 2024)'
 authors: 
-  - admin
+  - tianzheng
 date: 2024-04-15
 tags:
-  - AI
+  - AIThoughts
 image:
   placement: 0
   caption: ""

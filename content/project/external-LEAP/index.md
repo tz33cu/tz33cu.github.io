@@ -2,7 +2,7 @@
 title: "NSF-STC: Learning the Earth with AI and Physics"
 date: 2021-10-22
 authors:
-  - admin
+  - tianzheng
 links:
   - type: site
     url: https://leap.columbia.edu/

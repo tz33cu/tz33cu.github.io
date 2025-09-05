@@ -2,7 +2,7 @@
 title: Applied Data Science at Columbia
 date: 2015-01-01
 authors:
-  - admin
+  - tianzheng
 links:
   - type: site
     url: https://tzstatsads.github.io/

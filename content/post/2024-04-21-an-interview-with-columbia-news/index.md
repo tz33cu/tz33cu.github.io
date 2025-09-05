@@ -1,7 +1,7 @@
 ---
 title: An Interview with Columbia News (April 2024)
 authors: 
-  - admin
+  - tianzheng
 date: 2024-04-21
 tags:
   - AcademicLife
