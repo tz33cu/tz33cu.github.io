@@ -11,10 +11,10 @@ design:
 sections:
   - block: markdown
     content:
-      title: 'Welcome to TZstats Convergence Lab!'
+      title: 'TZstats Convergence Lab'
       subtitle: ''
       text: |-
-        Where disciplines collaborate and research meets education:  tackling real-world problems, leveraging today’s data, evaluating emerging tools, developing new methods, and training the next generation of polymath researchers.
+        Where disciplines collaborate and research meets education: tackling real-world problems with data, tools, methods — and preparing the next generation of polymath researchers.
     design:
       columns: '1'
   - block: resume-biography-3
