@@ -1,9 +1,6 @@
 ---
-# To publish author profile pages, remove all the `build` and `cascade` settings below.
-build:
-  render: never
-cascade:
-  build:
-    render: never
-    list: always
+---
+title: "Authors"
+
+This folder contains author profile pages used by the site. Author profiles are published as standalone pages when this index does not disable rendering.
 ---
