@@ -29,7 +29,7 @@ sections:
         folders:
           - project
     design:
-      view: showcase
+      view: article-grid
       columns: 3
 
   - block: collection
@@ -44,7 +44,7 @@ sections:
         folders:
           - authors
     design:
-      view: people
+      view: article-grid
       columns: 3
 ---
 
@@ -60,5 +60,5 @@ sections:
         folders:
           - authors
     design:
-      view: people
+      view: article-grid
       columns: 3
