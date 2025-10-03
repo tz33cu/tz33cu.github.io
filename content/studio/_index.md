@@ -9,6 +9,15 @@ design:
   spacing: "1rem"
 
 sections:
+  - block: markdown
+    content:
+      title: "TZstats Convergence Design Studio"
+      subtitle: "Projects · Collaborators · Students"
+      text: |-
+        The Design Studio is a maker space in the TZstats Lab that brings together research, pedagogy, and design to build interdisciplinary projects. We mentor students, collaborate with partners, and showcase selected projects that bridge research and practice.
+    design:
+      columns: '1'
+
   - block: collection
     content:
       title: "Projects"
@@ -22,4 +31,32 @@ sections:
           - project
     design:
       view: showcase
+      columns: 3
+
+  - block: collection
+    content:
+      title: "Collaborators"
+      subtitle: "People who partner with the studio"
+      page_type: author
+      count: 0
+      filters:
+        user_group: "Design Studio Collaborators"
+        folders:
+          - authors
+    design:
+      view: people
+      columns: 3
+
+  - block: collection
+    content:
+      title: "Students"
+      subtitle: "Current students and mentees"
+      page_type: author
+      count: 0
+      filters:
+        user_group: "Design Studio Students"
+        folders:
+          - authors
+    design:
+      view: people
       columns: 3
