@@ -39,7 +39,8 @@ sections:
       page_type: author
       count: 0
       filters:
-        user_group: "Design Studio Collaborators"
+        user_groups:
+          - "Design Studio Collaborators"
         folders:
           - authors
     design:
@@ -54,7 +55,8 @@ sections:
       page_type: author
       count: 0
       filters:
-        user_group: "Design Studio Students"
+        user_groups:
+          - "Design Studio Students"
         folders:
           - authors
     design:
