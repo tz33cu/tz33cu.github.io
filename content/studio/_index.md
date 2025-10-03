@@ -10,15 +10,16 @@ design:
 
 sections:
 	- block: collection
-		content:
-			title: "Projects"
-			subtitle: "Design Studio Projects"
-			page_type: project
-			count: 0
-			filters:
-				tag: "design-studio"
-				folders:
-					- project
+			content:
+				title: "Projects"
+				subtitle: "Design Studio Projects"
+				page_type: project
+				count: 0
+				filters:
+					tags:
+						- "design-studio"
+					folders:
+						- project
 		design:
 			view: showcase
 			columns: 3
