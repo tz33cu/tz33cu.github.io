@@ -1,7 +1,6 @@
 ---
 widget: people
 active: true
-headless: true
 weight: 30
 title: "Students"
 content:

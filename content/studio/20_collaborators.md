@@ -1,7 +1,6 @@
 ---
 widget: people
 active: true
-headless: true
 weight: 20
 title: "Collaborators"
 content:
