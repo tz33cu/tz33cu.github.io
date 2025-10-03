@@ -46,6 +46,15 @@ sections:
     design:
       view: article-grid
       columns: 3
+
+  - block: markdown
+    content:
+      title: "Collaborators (manual listing)"
+      text: |-
+        - [Carol Collaborator](/tzheng/author/carol-collaborator/)
+        - [Dave Collaborator](/tzheng/author/dave-collaborator/)
+    design:
+      columns: '1'
 ---
 
   - block: collection
@@ -62,3 +71,12 @@ sections:
     design:
       view: article-grid
       columns: 3
+
+  - block: markdown
+    content:
+      title: "Students (manual listing)"
+      text: |-
+        - [Alice Student](/tzheng/author/alice-student/)
+        - [Bob Student](/tzheng/author/bob-student/)
+    design:
+      columns: '1'
