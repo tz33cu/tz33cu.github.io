@@ -9,7 +9,8 @@ user_groups:
 profiles:
   - icon: brands/github
     url: 'https://github.com/davec'
-
+avatar:
+  filename: "avatar.png"   # keep the image in the same folder
 ---
 
 Dave is an industry collaborator who helps the studio bridge prototypes to production environments.

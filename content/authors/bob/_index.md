@@ -10,6 +10,9 @@ profiles:
   - icon: at-symbol
     url: 'mailto:bob.student@example.edu'
 
+avatar:
+  filename: "avatar.png"
+
 ---
 
 Bob works on data cleaning tooling and reproducible workflows in the Design Studio.

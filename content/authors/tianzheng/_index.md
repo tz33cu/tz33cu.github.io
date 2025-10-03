@@ -62,6 +62,8 @@ education:
     institution: Tsinghua University
     date_start: 1994-09-01
     date_end: 1998-06-30
+avatar:
+  filename: "avatar.jpg"   # keep the image in the same folder
 ---
 
 # Lab Lead

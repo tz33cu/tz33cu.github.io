@@ -9,7 +9,8 @@ user_groups:
 profiles:
   - icon: brands/linkedin
     url: 'https://www.linkedin.com/in/carol-collab'
-
+avatar:
+  filename: "avatar.png"   # keep the image in the same folder
 ---
 
 Carol is a design researcher who partners with the studio on human-centered design and prototyping.
