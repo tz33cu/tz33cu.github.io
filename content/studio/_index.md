@@ -6,20 +6,20 @@ summary: "The Design Studio serves as a maker space of the TZstats Lab that focu
 ---
 
 design:
-	spacing: "1rem"
+  spacing: "1rem"
 
 sections:
-	- block: collection
-			content:
-				title: "Projects"
-				subtitle: "Design Studio Projects"
-				page_type: project
-				count: 0
-				filters:
-					tags:
-						- "design-studio"
-					folders:
-						- project
-		design:
-			view: showcase
-			columns: 3
+  - block: collection
+    content:
+      title: "Projects"
+      subtitle: "Design Studio Projects"
+      page_type: project
+      count: 0
+      filters:
+        tags:
+          - "design-studio"
+        folders:
+          - project
+    design:
+      view: showcase
+      columns: 3
