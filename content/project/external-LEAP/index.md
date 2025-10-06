@@ -4,6 +4,14 @@ date: 2021-10-22
 authors:
   - admin
   - pierre
+  - shawnli
+  - zhewenhou
+  - peterjin
+  - sammy
+  - suba
+  - xingyaoli
+  - luyingshu
+  - jingyuhu
 links:
   - type: site
     icon: link

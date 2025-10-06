@@ -16,7 +16,7 @@ social:
     link: https://www.linkedin.com/in/eric-aragundi/
 
 user_groups:
-  - collaborator
+  - Collaborators
 avatar:
   filename: "avatar.jpg"   # keep the image in the same folder
 ---

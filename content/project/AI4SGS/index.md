@@ -4,6 +4,8 @@ date: 2025-07-01
 authors:
   - admin
   - nabila
+  - james
+  - ericaragundi
 links:
   - type: site
     icon: link

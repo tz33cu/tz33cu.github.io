@@ -4,6 +4,9 @@ date: 2020-07-01
 authors:
   - admin
   - maria
+  - Chengliang Tang
+  - Diane Lu
+  - Gan Yuan
 tags:
   - Research
   - Data Science

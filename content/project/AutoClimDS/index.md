@@ -4,6 +4,8 @@ date: 2024-07-01
 authors:
   - admin
   - ahmedjaber
+  - wangshuzhu
+  - kirawang
 links:
   - type: site
     icon: github
