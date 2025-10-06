@@ -53,21 +53,21 @@ sections:
           icon_pack: fas
           text: 'How to apply for MA mentored research.'
           url: 'https://ma.stat.columbia.edu/ma-honors-research/'
-      # - title: Stay Informed
-      #   content: 
-      #   align: left
-      #   background:
-      #     image:
-      #       filename: collaboration.jpeg
-      #       filters:
-      #         brightness: 0.5
-      #     position: right
-      #     color: '#666'
-      #   link:
-      #     icon: linkedin
-      #     icon_pack: ai
-      #     text: "Follow me on LinkedIn"
-      #     url: 'https://www.linkedin.com/in/tian-zheng-082402/'
+       - title: Stay Informed
+         content: 
+         align: left
+         background:
+           image:
+             filename: followme.jpg
+             filters:
+               brightness: 0.5
+           position: right
+           color: '#666'
+         link:
+           icon: linkedin
+           icon_pack: ai
+           text: "Follow me on LinkedIn"
+           url: 'https://www.linkedin.com/in/tian-zheng-082402/'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
