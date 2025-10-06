@@ -13,7 +13,7 @@ sections:
             + For mentored research opportunities, 
               + MA in Statistics students should go through the mentored research program. 
               + Other students, please review the [Projects](../project/) page and let me know how you would like to be involved. 
-            + The PhD admission is done by a department-level committee. During the admission season, I incline not to engage with prospective students beyond your application materials
+            + The PhD admission is done by a department-level committee. During the admission season, I incline not to engage with prospective students beyond your application materials.
       email: tian.zheng@columbia.edu
       phone: 212-851-2149
       fax: 212-851-2164
