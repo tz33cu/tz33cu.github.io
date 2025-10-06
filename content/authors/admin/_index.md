@@ -10,7 +10,7 @@ first_name: Tian
 last_name: Zheng
 
 # Pronouns (optional)
-pronouns: she/her
+# pronouns: she/her
 
 # Status emoji
 status:
@@ -32,20 +32,30 @@ organizations:
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'mailto:tian.zheng@columbia.edu'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/tz33cu
-  - icon: brands/github
-    url: https://github.com/tz33cu
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/tian-zheng-082402/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=-4J-KZoAAAAJ&hl=en
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0003-4889-0391
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:tian.zheng@columbia.edu'
+  - icon: x
+    icon_pack: fas
+    link: https://twitter.com/tz33cu
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/tz33cu
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/tian-zheng-082402/
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=-4J-KZoAAAAJ&hl=en
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0000-0003-4889-0391
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+  - icon: cv
+    icon_pack: ai
+    link: uploads/TianZheng.pdf
 
 interests:
   - Applied Statistics and Data Science
@@ -54,14 +64,16 @@ interests:
   - Research-Education Integration
 
 education:
-  - area: PhD in Statistics
-    institution: Columbia University
-    date_start: 1998-09-01
-    date_end: 2002-05-31
-  - area: BSc in Applied Statistics (minor in Computer Science)
-    institution: Tsinghua University
-    date_start: 1994-09-01
-    date_end: 1998-06-30
+  courses:
+    - course: PhD in Statistics
+      institution: Columbia University
+      year: 2002
+    - course: BSc in Applied Statistics (minor in Computer Science)
+      institution: Tsinghua University
+      year: 1998
+
+user_groups:
+  - Principal Investigator
 ---
 
 # Lab Lead

@@ -1,1 +1,3 @@
-This repository contains the source files for tz33cu.github.io.
+# TZstats Group
+
+Website source codes for https://tz33cu.github.io.

@@ -1,0 +1,31 @@
+// Make page header alignment consistent with widget page header alignment
+.universal-wrapper h1 {
+  text-align: center;
+}
+
+// Center the CTA shortcode button
+.cta-group {
+  justify-content: center;
+}
+
+// /* Make main content fonts white for better readability on dark backgrounds */
+// .universal-wrapper,
+// .universal-wrapper p,
+// .universal-wrapper li,
+// .universal-wrapper h1,
+// .universal-wrapper h2,
+// .universal-wrapper h3,
+// .universal-wrapper h4,
+// .universal-wrapper a {
+//   color: #ffffff;
+// }
+
+// /* Slider / hero text: ensure white text and add subtle shadow for contrast */
+// .slider,
+// .slider .slide,
+// .block-slider,
+// .block-slider .slide,
+// .block-slider .content {
+//   color: #ffffff;
+//   text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+// }

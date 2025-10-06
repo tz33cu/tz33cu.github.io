@@ -2,13 +2,15 @@
 title: Applied Data Science at Columbia
 date: 2015-01-01
 authors:
-  - tianzheng
+  - admin
 links:
   - type: site
+    icon: link
+    icon_pack: fas
     url: https://tzstatsads.github.io/
 tags:
   - Education
-  - DataScience
+  - Data Science
 image:
   placement: 0
   caption: ""
@@ -16,9 +18,11 @@ image:
   preview_only: true
   filename: "featured.png"
 # Display this page in the Featured widget?
-featured: true
+featured: false
 ---
 
 Applied Data Science at Columbia is a project-based learning course that started in 2016. It employs the common task framework and runs 5 mini project cycles during one semester to give students a broad exposure to various areas in data science. Projects are developed and updated each year, drawing inspirations from active research, challenges and interesting public datasets.
+
+Current subprojects: on pause. 
 
 ---

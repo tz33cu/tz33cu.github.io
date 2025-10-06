@@ -1,4 +1,11 @@
 ---
-title: Posts
-view: article-grid
+title: TZstats Lab - Posts and News
+
+# Listing view
+view: compact
+
+# Optional banner image (relative to `assets/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---

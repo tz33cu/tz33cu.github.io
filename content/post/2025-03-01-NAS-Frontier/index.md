@@ -3,12 +3,11 @@ title: "Frontiers of Statistics in Science and Engineering: 2035 and Beyond"
 summary: 
 date: 2025-03-01
 authors:
-  - tianzheng
-
+  - admin
 tags:
   - Leadership
   - AI
-  - Service
+  - Profession
 
 image:
   placement: 0
