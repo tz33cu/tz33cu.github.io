@@ -58,7 +58,7 @@ sections:
         align: left
         background:
           image:
-            filename: linkedin.png
+            filename: linkedinbanner.png
             filters:
               brightness: 0.5
           position: right
