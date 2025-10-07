@@ -62,20 +62,26 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle:
+  #     text: |
+  #       {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+  #   design:
+  #     columns: '1'
       
   - block: markdown
     content:
-      title:
+      title: 
       subtitle: ''
-      text:
+      text: |
+
+        {{% cta cta_link="./about/" cta_text="About the lab →" %}}
+        
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        
+        {{% cta cta_link="./contact/" cta_text="Contact Info →" %}}
     design:
       columns: '1'
       background:
