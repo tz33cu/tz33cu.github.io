@@ -15,7 +15,7 @@ author_notes:
 authors: 
   - Sungduk Yu
   - others
-  - admin
+  - Tian Zheng
   - 'more others'
   - Mike Pritchard
 doi: ''
