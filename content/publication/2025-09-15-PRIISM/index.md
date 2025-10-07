@@ -1,7 +1,7 @@
 ---
 title: "The Practical, Robust Implementation and Sustainability (PRISM)-capabilities model for use of Artificial Intelligence in community-engaged implementation science research"
 authors:
-- nabia
+- nabila
 - james
 - "others"
 - ericaragundi
