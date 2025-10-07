@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Professor of Statistics
+role: Professor of Statistics, Columbia University
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
