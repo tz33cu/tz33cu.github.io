@@ -9,7 +9,7 @@ title: Network Hawkes Process Models for Exploring Latent Hierarchy in Social An
 authors:
 - owenward
 - Jing Wu
-- Tian Zheng
+- admin
 - annasmith
 - James P. Curley
 

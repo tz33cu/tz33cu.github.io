@@ -7,7 +7,7 @@ title: 'Machine Learning Workflows in Climate Modeling: Design Patterns and Insi
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Tian Zheng
+- admin
 - suba
 - shawnli
 - Amy Braverman

@@ -17,5 +17,3 @@ user_groups:
 avatar:
   filename: "avatar.png"   # keep the image in the same folder
 ---
-
-Anna was a postdoc in the TZstat group 2017-2019.

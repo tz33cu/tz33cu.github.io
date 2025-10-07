@@ -21,5 +21,3 @@ user_groups:
 avatar:
   filename: "avatar.png"   # keep the image in the same folder
 ---
-
-Owen was a PhD student in the TZstats group from 2018-2022.
