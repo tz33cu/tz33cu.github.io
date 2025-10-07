@@ -8,10 +8,10 @@ title: Scalable Community Detection in Massive Networks Using Aggregated Relatio
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Timothy Jones
-- Owen Ward
+- owenward
 - Yiran Jiang
 - John Paisley
-- Tian Zheng
+- admin
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

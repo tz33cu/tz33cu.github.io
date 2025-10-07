@@ -8,8 +8,8 @@ title: Diagnostics and Visualization of Point Process Models for Event Times on 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Jing Wu
-- Anna Smith
-- Tian Zheng
+- annasmith
+- admin
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

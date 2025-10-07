@@ -7,14 +7,14 @@ title: 'AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All 
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Ahmed Jaber
-- Wangshu Zhu
+- ahmedjaber
+- wangshuzhu
 - Karthick Jayavelu
 - Justin Downes
 - Sameer Mohamed
 - Candace Agonafir
 - Linnia Hawkins
-- Tian Zheng
+- admin
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

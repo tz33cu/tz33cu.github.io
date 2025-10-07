@@ -1,12 +1,12 @@
 ---
 title: "The Practical, Robust Implementation and Sustainability (PRISM)-capabilities model for use of Artificial Intelligence in community-engaged implementation science research"
 authors:
-- Nabila El-Bassel
-- James Davd
+- nabia
+- james
 - "others"
 - ericaragundi
 - "more others"
-- Tian Zheng
+- admin
 date: "2025-09-01T00:00:00Z"
 doi: ""
 

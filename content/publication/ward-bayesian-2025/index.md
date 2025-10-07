@@ -6,9 +6,9 @@ title: 'Bayesian Modeling for Aggregated Relational Data: A Unified Perspective'
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Owen Ward
-- Anna Smith
-- Tian Zheng
+- owenward
+- annasmith
+- admin
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

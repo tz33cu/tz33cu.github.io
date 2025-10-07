@@ -8,13 +8,13 @@ title: 'Machine Learning Workflows in Climate Modeling: Design Patterns and Insi
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Tian Zheng
-- Subashree Venkatasubramanian
-- Shuolin Li
+- suba
+- shawnli
 - Amy Braverman
 - Xinyi Ke
-- Zhewen Hou
-- Peter Jin
-- Samarth Agrawal
+- zhewenhou
+- peterjin
+- sammy
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

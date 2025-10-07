@@ -9,8 +9,8 @@ authors:
 - Tamara Broderick
 - Andrew Gelman
 - Rachael Meager
-- Anna L. Smith
-- Tian Zheng
+- annasmith
+- admin
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

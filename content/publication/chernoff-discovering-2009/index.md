@@ -8,7 +8,7 @@ title: 'Discovering influential variables: A method of partitions'
 authors:
 - Herman Chernoff
 - Shaw-Hwa Lo
-- Tian Zheng
+- admin
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
