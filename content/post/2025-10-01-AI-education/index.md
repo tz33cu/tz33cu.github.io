@@ -8,7 +8,7 @@ authors:
 tags:
   - AI
 ---
-Discussions on "AI Education" often feel tangled, confusing, and mixed. I spend A LOT of time thinking about what could help structure such dialogues. I wrote up my thoughts and posted them on arXiv.
+Discussions on "AI Education" often feel tangled, confusing, and mixed. I spend A LOT of time thinking about what could help structure such dialogues. I wrote up my thoughts and posted them on [arXiv](https://arxiv.org/abs/2509.23363).
 
 <!--more-->
 
