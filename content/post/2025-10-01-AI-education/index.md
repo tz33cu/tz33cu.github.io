@@ -4,7 +4,7 @@ date: 2025-10-01
 image:
   focal_point: 'top'
 authors:
-  - admin
+  - Tian Zheng
 tags:
   - AI
 ---

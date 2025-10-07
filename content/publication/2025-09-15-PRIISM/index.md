@@ -19,7 +19,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Implementation Science"
+publication: "*Implementation Science*"
 publication_short: ""
 
 abstract: "The PRISM-Capabilities model for AI includes six components to ensure that ethical concerns are addressed, trust and transparency are maintained, and communities are equipped to use and understand AI technology. This conceptual model is specifically tailored for community-engaged implementation science research, facilitating close collaboration between researchers and community partners to guide the use of AI throughout. This paper also proposes next steps to validate the model using the HEALing Communities Study (HCS), the largest community-engaged research study to date, which aimed to reduce fatal overdose deaths in 67 highly impacted communities in the United States."
@@ -33,7 +33,8 @@ tags:
 - Research
 - Collaboration
 - Artificial Intelligence
-featured: true
+
+featured: yes
 
 # links:
 # - name: ""

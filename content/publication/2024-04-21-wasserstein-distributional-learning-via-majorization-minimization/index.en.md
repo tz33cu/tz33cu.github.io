@@ -14,8 +14,8 @@ authors:
 doi: ''
 publishDate: '2023-04-25T18:46:58-04:00'
 publication_types: ['paper-conference']
-publication: 'AISTATS 2023'
-publication_short: 'AISTATS 2023'
+publication: '*AISTATS 2023*'
+publication_short: '*AISTATS 2023*'
 abstract: 'Learning function-on-scalar predictive models for conditional densities and identifying factors that influence the entire probability distribution are vital tasks in many data-driven applications. We present an efficient Majorization-Minimization optimization algorithm, Wasserstein Distributional Learning (WDL), that trains Semi-parametric Conditional Gaussian Mixture
 Models (SCGMM) for conditional density functions and uses the Wasserstein distance W2 as a
 proper metric for the space of density outcomes. We further provide theoretical convergence guarantees and illustrate the algorithm using boosted machines. Experiments on the synthetic data
