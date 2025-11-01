@@ -9,7 +9,6 @@ tags:
   - Research
   - Statistics
   - Network Analysis
-  - Artificial Intelligence
 image:
   placement: 0
   caption: ""

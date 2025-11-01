@@ -13,7 +13,6 @@ links:
     url: 'https://github.com/TZstats-Columbia/AutoClimDS'
 tags:
   - Research
-  - Data Science
   - Design Studio
   - Artificial Intelligence
 image:

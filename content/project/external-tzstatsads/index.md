@@ -11,6 +11,7 @@ links:
 tags:
   - Education
   - Data Science
+  - Design Studio
 image:
   placement: 0
   caption: ""

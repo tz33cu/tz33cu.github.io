@@ -10,7 +10,6 @@ links:
     url: https://entrepreneurship.columbia.edu/collaboratory/
 tags:
   - Education
-  - DataScience
 image:
   placement: 0
   caption: ""

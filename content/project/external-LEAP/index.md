@@ -19,8 +19,8 @@ links:
     url: https://leap.columbia.edu/
 tags:
   - Research
-  - Data Science
-  - Climate Science
+  - Artificial Intelligence
+  - Design Studio
 image:
   placement: 0
   caption: ""

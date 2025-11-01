@@ -25,7 +25,7 @@ image:
 Grounded in the belief that faculty are the drivers of transformative educational change, this emerging initiative seeks to accelerate progress in AI education at scale by empowering faculty to lead innovative, cross-disciplinary efforts.
 
 <!--more-->
-{{< toc mobile_only=true is_open=true >}}
+{{< toc is_open=true >}}
 
 ## Overview
 In June 2025, I joined the Data Science Institute’s university-wide AI education retreat, which brought together thought leaders across disciplines to envision the future of AI-integrated learning. The conversations surfaced many important insights and ultimately inspired the vision for the AI+X Faculty Leadership Fellows Program — a program designed to support faculty advancement as institutions adapt to rapid technological change.

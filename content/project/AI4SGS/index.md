@@ -13,7 +13,6 @@ links:
     url: 'hhttps://sig.columbia.edu/content/artificial-intelligence-social-good-and-society-initiative-0'
 tags:
   - Research
-  - Data Science
   - Artificial Intelligence
 image:
   placement: 0

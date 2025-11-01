@@ -9,7 +9,6 @@ authors:
   - Gan Yuan
 tags:
   - Research
-  - Data Science
   - Artificial Intelligence
 image:
   placement: 0
