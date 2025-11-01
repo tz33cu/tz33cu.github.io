@@ -93,8 +93,8 @@ Each fellow will receive:
    - The survey captures unit priorities, anticipated supports/constraints, and alignment with broader curricular or research goals.
 
 > **Links:**  
-> - Application Form: `https://forms.gle/KaFR7rSuopLNrKQ49`  
-> - Chair/Division Survey: `https://columbiaiserp.iad1.qualtrics.com/jfe/form/SV_4GB0mpDRS6JEUR0`  
+> - [Application Form](https://forms.gle/KaFR7rSuopLNrKQ49)  
+> - [Chair/Division Head Survey](https://columbiaiserp.iad1.qualtrics.com/jfe/form/SV_4GB0mpDRS6JEUR0)
 > - [Support Letter Template](https://www.dropbox.com/scl/fi/hsua1mx36tt1rycepnri2/aix-Department-Support-Letter-Template.docx?rlkey=rn8hysbhuhwo8puftcylfk64n&st=gjjzjce2&dl=0)
 
 ---
