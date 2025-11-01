@@ -16,7 +16,7 @@ Call for applications for the aiX Faculty Fellowship Program, supporing faculty 
 
 # aiX Faculty Fellowship Program
 
-  + **Application Deadline:** November 20, 2025 5:00 PM ET. 
+  + **Application Deadline:** November 24, 2025 5:00 PM ET. 
   + **Notification:** December 15, 2025. 
   + **Bootcamp and Program Kick-Off:** January 15-16, 2026. 
 
