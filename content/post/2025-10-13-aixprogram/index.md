@@ -1,6 +1,6 @@
 ---
 title: "aiX Faculty Fellowship Program"
-date: 2025-10-13
+date: 2025-11-01
 draft: false
 
 image:
