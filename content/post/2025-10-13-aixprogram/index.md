@@ -106,7 +106,7 @@ Each fellow will receive:
 
 ### Expectations & Participation
 - Attend the **Bootcamp** (mid-late January) and **bi-weekly check-ins** through the term (Spring 2026).  
-- Collaborate with your assigned **student intern** and the [aiX team]().  
+- Collaborate with your assigned **student intern** and the aiX team.  
 - Share progress at the **public share event** and submit the **final report**.
 
 ---
