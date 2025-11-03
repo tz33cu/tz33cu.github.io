@@ -10,7 +10,7 @@ authors:
 tags:
   - AI
 ---
-Call for applications for the aiX Faculty Fellowship Program, supporing faculty in exploring what AI means for their own fields and professional practices, and developing an AI Education initiative contextualized within their own discipline.
+Call for applications for the aiX Faculty Fellowship Program, supporting faculty in exploring and critically examining what the rise of AI means for their own fields and professional practices, and developing an AI Education project contextualized within their own discipline.
 
 <!--more-->
 
@@ -27,7 +27,7 @@ Call for applications for the aiX Faculty Fellowship Program, supporing faculty 
 {{< toc is_open=true >}}
 
 ## Why aiX?
-Funded by a grant from Google, co-sponsored by the [Data Science Institute](https://datascience.columbia.edu/) and the [Center for Teaching and Learning](https://ctl.columbia.edu/), the **aiX Faculty Fellowship Program** supports faculty **across disciplines** (arts, natural and social sciences, engineering, humanities, medicine and health, business, climate, journalism, law, social work, etc) in exploring what *AI* means for their own fields and professional practices, and developing an AI Education initiative contextualized within their own discipline. Led by a [devoted team](../2025-09-04-ai-x-flfp-beta/), the program creates space for inquiry, experimentation, and collaboration around AI’s implications for teaching, research, and knowledge creation. 
+Funded by a grant from Google, co-sponsored by the [Data Science Institute](https://datascience.columbia.edu/) and the [Center for Teaching and Learning](https://ctl.columbia.edu/), the **aiX Faculty Fellowship Program** supports faculty **across disciplines** (arts, natural and social sciences, engineering, humanities, medicine and health, business, climate, journalism, law, social work, etc) in exploring and examining what *AI* means for the scholarship and professional practices within their discipline, and developing an AI Education project contextualized within their own discipline. Led by a [devoted team](../2025-09-04-ai-x-flfp-beta/), the program creates space for inquiry, experimentation, and collaboration around AI’s implications for teaching, research, and knowledge creation. 
 
 Through aiX, also a cross-disciplinary **eXchange**, faculty fellows share ideas, learn from one another, and collectively address opportunities and challenges that AI presents within and across disciplines. The program will connect with other AI education efforts on campus, including the work of DSI's [education working group](https://datascience.columbia.edu/research/groups/education-working-group/), the [Collaboratory Program](https://entrepreneurship.columbia.edu/collaboratory-at-columbia/), CTL's [teaching with AI intiative](https://ai.ctl.columbia.edu/), and many more.
 
@@ -74,7 +74,7 @@ Each fellow will receive:
 
 ### Application Materials 
 
-1. **Online Application Form**  
+1. **[Online Application Form](https://forms.gle/KaFR7rSuopLNrKQ49)**  
    - Applicant information.
    - Current curriculum vitae  
    - Prior experiences with AI and curricular update/reform
@@ -82,7 +82,7 @@ Each fellow will receive:
    - Team members and any **neighboring disciplines** that would benefit from the fellowship project.  
    - Resource needs and how the **intern** will be utilized.
 
-2. **Support Letter (Required)**  
+2. **Support Letter**  
    Upload a **standard support letter** from your **department chair/division head** confirming:  
    - The unit supports your application, **and**  
    - The unit will **implement the proposed project** if you are selected as a fellow.  
