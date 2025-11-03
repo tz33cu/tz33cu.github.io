@@ -88,14 +88,14 @@ Each fellow will receive:
    - The unit will **implement the proposed project** if you are selected as a fellow.  
    *(A simple one-page PDF following [this template](https://www.dropbox.com/scl/fi/hsua1mx36tt1rycepnri2/aix-Department-Support-Letter-Template.docx?rlkey=rn8hysbhuhwo8puftcylfk64n&st=gjjzjce2&dl=0) on department letterhead is sufficient.)*
 
-#### Chair/Division Head Survey (Unit-level){#chair--division-survey}  
+#### 3. Chair/Division Head Survey (Unit-level){#chair--division-survey}  
    Your **chair or division head** must complete [**one brief survey**](https://columbiaiserp.iad1.qualtrics.com/jfe/form/SV_4GB0mpDRS6JEUR0) covering all applicants from the unit.  
    - The survey captures unit priorities, anticipated supports/constraints, and alignment with broader curricular or research goals.
 
 #### Important Application Links
 > - [Application Form](https://forms.gle/KaFR7rSuopLNrKQ49)  
-> - [Chair/Division Head Survey](https://columbiaiserp.iad1.qualtrics.com/jfe/form/SV_4GB0mpDRS6JEUR0)
 > - [Support Letter Template](https://www.dropbox.com/scl/fi/hsua1mx36tt1rycepnri2/aix-Department-Support-Letter-Template.docx?rlkey=rn8hysbhuhwo8puftcylfk64n&st=gjjzjce2&dl=0)
+> - [Chair/Division Head Survey](https://columbiaiserp.iad1.qualtrics.com/jfe/form/SV_4GB0mpDRS6JEUR0)
 
 ---
 
