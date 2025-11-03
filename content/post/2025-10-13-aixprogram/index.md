@@ -10,7 +10,7 @@ authors:
 tags:
   - AI
 ---
-Call for applications for the aiX Faculty Fellowship Program, supporting faculty in exploring and critically examining what the rise of AI means for their own fields and professional practices, and developing an AI Education project contextualized within their own discipline.
+Call for applications for the aiX Faculty Fellowship Program, supporting faculty in exploring and critically examining what the rise of AI means for their own fields and professional practices, and developing an AI Education project contextualized within their own discipline. This program is a faculty-led initiative in the [Office of the Vice Provost for Faculty Advancement](https://provost.columbia.edu/content/office-vice-provost-faculty-advancement). 
 
 <!--more-->
 
