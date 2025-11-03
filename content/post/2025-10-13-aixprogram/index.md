@@ -74,7 +74,7 @@ Each fellow will receive:
 
 ### Application Materials 
 
-1. **[Online Application Form](https://forms.gle/KaFR7rSuopLNrKQ49)**  
+#### 1. [Online Application Form](https://forms.gle/KaFR7rSuopLNrKQ49)  
    - Applicant information.
    - Current curriculum vitae  
    - Prior experiences with AI and curricular update/reform
@@ -82,7 +82,7 @@ Each fellow will receive:
    - Team members and any **neighboring disciplines** that would benefit from the fellowship project.  
    - Resource needs and how the **intern** will be utilized.
 
-2. **Support Letter**  
+#### 2. Support Letter  
    Upload a **standard support letter** from your **department chair/division head** confirming:  
    - The unit supports your application, **and**  
    - The unit will **implement the proposed project** if you are selected as a fellow.  
