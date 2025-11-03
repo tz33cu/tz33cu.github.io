@@ -70,7 +70,7 @@ Each fellow will receive:
 ## Application {#application}
 
 ### Eligibility
-**All full-time officers of instruction** are welcome to apply. The program welcomes proposals from any department, division, or school whose work intersects with, and/or is impacted by, AI.
+**All full-time [officers of instruction](https://facultyhandbook.columbia.edu/content/officers-instruction/officers-instruction-titles)** are welcome to apply. The program welcomes proposals from any department, division, or school whose work intersects with, and/or is impacted by, AI.
 
 ### Application Materials 
 
