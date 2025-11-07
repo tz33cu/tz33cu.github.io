@@ -74,7 +74,7 @@ Each fellow will receive:
 
 ### Application Materials 
 
-#### 1. [Online Application Form](https://forms.gle/KaFR7rSuopLNrKQ49)  
+#### 1. [Online Application Form](https://form.jotform.com/253085961803158)  
    - Applicant information.
    - Current curriculum vitae  
    - Prior experiences with AI and curricular update/reform
@@ -93,7 +93,7 @@ Each fellow will receive:
    - The survey captures unit priorities, anticipated supports/constraints, and alignment with broader curricular or research goals.
 
 #### Important Application Links
-> - [Application Form](https://forms.gle/KaFR7rSuopLNrKQ49)  
+> - [Application Form](https://form.jotform.com/253085961803158)  
 > - [Support Letter Template](https://www.dropbox.com/scl/fi/hsua1mx36tt1rycepnri2/aix-Department-Support-Letter-Template.docx?rlkey=rn8hysbhuhwo8puftcylfk64n&st=gjjzjce2&dl=0)
 > - [Chair/Division Head Survey](https://columbiaiserp.iad1.qualtrics.com/jfe/form/SV_4GB0mpDRS6JEUR0)
 
