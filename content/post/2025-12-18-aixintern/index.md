@@ -36,11 +36,11 @@ This internship brings students into close collaboration with faculty fellows fr
 - Defining the human role in AI education; Designing learning experiences that help students learn with AI, not just learn around AI.
 
 Interns will:
-- Collaborate with aiX Faculty Fellows to design AI-enabled learning activities, assignments and assessment. 
-- Help explore and articulate discipline-specific AI-relevant skills
-- Contribute to the design of assessment strategies for AI-supported learning
-- Share student-centered perspectives on how AI is used in learning and practice
-- Participate in design studio meetings, workshops, and documentation efforts
+- Collaborate with aiX Faculty Fellows to design AI-enabled learning activities, assignments and assessment;
+- Help explore and articulate discipline-specific AI-relevant skills;
+- Contribute to the design of assessment strategies for AI-supported learning;
+- Share student-centered perspectives on how AI is used in learning and practice;
+- Participate in design studio meetings, workshops, and documentation efforts.
 
 ## Who should apply
 
