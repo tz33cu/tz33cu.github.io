@@ -12,13 +12,13 @@ hugoblox:
     type: person
     tagline: ""
     description: ""
-  theme:
-    mode: system
-    pack: default
-    colors:
-      primary: ""
-      secondary: ""
-      neutral: ""
+  # theme:
+  #   mode: system
+  #   pack: default
+  #   colors:
+  #     primary: ""
+  #     secondary: ""
+  #     neutral: ""
   typography:
     font: sans
     size: md
