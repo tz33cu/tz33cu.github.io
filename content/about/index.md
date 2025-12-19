@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: Welcome to the TZstats Lab
-        content: The TZstats Lab is an "*Everyone’s Backyard*." --- 👋🏽 Open by default, 🧩 Modular in practice, 💎 Statistical in mindset, 🧬 Research as education, ⚙️ Design for rigor.
+      - title: Welcome to the TZstats Convergence Lab
+        content: The TZstats Convergence Lab is an "*Everyone’s Backyard*." --- 👋🏽 Open by default, 🧩 Modular in practice, 💎 Statistical in mindset, 🧬 Research as education, ⚙️ Design for rigor.
         align: left
         background:
           image:
