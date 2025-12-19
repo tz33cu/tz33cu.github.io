@@ -14,7 +14,7 @@ hugoblox:
     description: ""
   theme:
     mode: system
-    pack: marine
+    pack: default
     colors:
       primary: ""
       secondary: ""
