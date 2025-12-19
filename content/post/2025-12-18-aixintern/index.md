@@ -1,6 +1,6 @@
 ---
 title: "aiX Convergence Design Studio Internship Program"
-date: 2025-11-01
+date: 2025-12-18
 draft: false
 image:
   focal_point: 'top'
