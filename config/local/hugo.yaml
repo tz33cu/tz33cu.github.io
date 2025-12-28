@@ -9,8 +9,8 @@ title: "TZstats Convergence Lab | Tian Zheng, Columbia Stats"
 baseURL: 'https://sites.stat.columbia.edu/tzheng/' # Website URL
 publishDir: '/Users/tianzheng/Library/CloudStorage/Dropbox/Tian_Site/tzstats-2025-group/public'
 
-relativeURLs: true
-canonifyURLs: true
+#relativeURLs: true
+#canonifyURLs: true
 
 ############################
 ## LANGUAGE
