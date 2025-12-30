@@ -23,11 +23,6 @@ sections:
           icon_pack: fas
           text: "Read about the **Everyone's Backyard** vision"
           url: 'https://www.college.columbia.edu/cct/issue/fall-2025/article/tian-zheng'
-        link:
-          icon: newspaper
-          icon_pack: fas
-          text: "Read about the **Everyone's Backyard** vision"
-          url: 'https://www.college.columbia.edu/cct/issue/fall-2025/article/tian-zheng'
       - title: Convergence Design Studio
         content: 'We innovate through research-centered design practices that keep research questions and data at the core, shaping workflows, methods, and collaborations, promoting scientific rigor through transparency and reproducibility, while offering learning opportunities to our brilliant students.'
         align: left
