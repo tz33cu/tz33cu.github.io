@@ -13,8 +13,8 @@ hugoblox:
     tagline: ""
     description: ""
   theme:
-    mode: light
-    pack: default
+    mode: system
+    pack: marine
     colors:
       primary: ""
       secondary: ""
