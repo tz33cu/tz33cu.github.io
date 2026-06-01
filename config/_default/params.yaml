@@ -10,8 +10,9 @@ hugoblox:
   identity:
     name: TZStats Convergence Lab
     type: person
-    tagline: ""
-    description: ""
+    description: "Tackling real-world problems with data, tools, methods — and preparing the next generation of polymath problem solvers."
+    organization: Columbia University
+    tagline: Data Science, AI and Statistics | TZStats @ Columbia
   theme:
     mode: system
     pack: marine
