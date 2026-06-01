@@ -41,10 +41,14 @@ interests:
 # I only graduate in December with the degree, wasn't sure if I should/should not list it before then
 education:
   courses: 
+    - course: PhD in Computational and Mathematical Engineering
+      institution: Stanford University
+      year: 2031 (expected)
     - course: BS in Computer Science (minor in Applied Mathematics)
       institution: Columbia University in the City of New York
       year: 2025
 
 user_groups:
-  - Mentored Research Students
+  #- Mentored Research Students
+  - Past Members
 ---

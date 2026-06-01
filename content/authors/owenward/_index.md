@@ -18,6 +18,7 @@ social:
 user_groups:
   - Alumni
   - Collaborators
+  - Past Members
 avatar:
   filename: "avatar.png"   # keep the image in the same folder
 ---

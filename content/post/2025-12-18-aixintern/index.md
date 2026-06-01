@@ -9,7 +9,7 @@ authors:
 tags:
   - AI
 ---
-Call for applications for the *aiX Convergence Design Studio Internship program* for Spring-Summer 2026. The aiX Convergence Design Studio is part of the [aiX Faculty Fellowship Program](https://tz33cu.github.io/post/2025-10-13-aixprogram/), a new cross-disciplinary initiative. The design studio interns will support faculty fellows in designing and developing human-centered, discipline-specific AI learning experiences. 
+Call for applications for the *aiX Convergence Design Studio Internship program* for Spring-Summer 2026. The aiX Convergence Design Studio is part of the [aiX Faculty Fellowship Program]({{< relref "/post/2025-10-13-aixprogram/" >}}), a new cross-disciplinary initiative. The design studio interns will support faculty fellows in designing and developing human-centered, discipline-specific AI learning experiences. 
 <!--more-->
 
 {{< aiwidget >}}

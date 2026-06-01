@@ -11,11 +11,13 @@ sections:
       image:
         filename: team2022.jpg
       text: |
-        <br>
-        
+       <br>
+
         Lab dinner photo - Summer 2022. 
         
-        This page is being updated. 
+        This page is nearly always outdated ... 
+
+        <br>
 
   - block: people
     content:
@@ -37,14 +39,36 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
-     
+
   - block: people
     content:
-      title: 'Collaborators'
+      title: 'Current Collaborators'
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      text: |
+        My work is highly collaborative and spans partnerships across disciplines and sectors. Below is a partial list of my current and frequent collaborators. A complete list of coauthors can be found through my publications.
+        <br>
+        <br>
       user_groups:
           - Collaborators
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      show_interests: false
+      show_role: true
+      show_social: false
+
+  - block: people
+    content:
+      title: 'Recent Past Members'
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      text: |
+        This group has been built through the efforts of many talented researchers. I am proud to have worked alongside the past members of TZStats and excited to follow their continued accomplishments. Because it is not feasible to maintain a complete list of all past mentees on this website, please see my [CV](uploads/TianZheng.pdf) for a comprehensive record. Here are a subset of recent mentees with whom I have coauthored publications.
+        <br>
+        <br>
+      user_groups:
+          - Past Members
       sort_by: Params.last_name
       sort_ascending: true
     design:

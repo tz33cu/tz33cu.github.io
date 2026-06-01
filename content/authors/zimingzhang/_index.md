@@ -45,5 +45,5 @@ education:
       year: 2024
 
 user_groups:
-  - Mentored Research Students
+  #- Mentored Research Students
 ---

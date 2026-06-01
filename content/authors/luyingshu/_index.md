@@ -48,7 +48,7 @@ interests:
 # [!!!!] UPDATE HERE USING YOUR EDUCATION
 education:
   courses: 
-    - course: MA in Statistics (expected)
+    - course: MA in Statistics
       institution: Columbia University in the City of New York
       year: 2026
     - course: Berkeley Global Access
@@ -59,5 +59,6 @@ education:
       year: 2024
 
 user_groups:
-  - Mentored Research Students
+  #- Mentored Research Students
+  #- Past Members
 ---

@@ -2,9 +2,11 @@
 title: "Shawn Li"
 first_name: Shawn (Shuolin)
 last_name: Li
-role: Postdoc, Data Science Institute and LEAP, Columbia
+role: Assistant Professor, Wuhan University
 user_groups:
-  - Students and Postdocs
+  #- Students and Postdocs
+  - Collaborators
+  - Past Members
 avatar:
   filename: "avatar.jpg"
 ---

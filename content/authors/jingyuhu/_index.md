@@ -44,12 +44,13 @@ education:
       year: 2023
 
 user_groups:
-  - Mentored Research Students
+  #- Mentored Research Students
+  #- Past Members
 ---
 
 #  Biography
 
-Jingyu Hu is currently pursuing a Master of Arts in Statistics at Columbia University (2024-2025). He earned his Bachelor of Science in Statistics: Data Science with a minor in Informatics from the University of Washington, Seattle (2019-2023), where he was a Dean's List student.
+Jingyu Hu pursued a Master of Arts in Statistics at Columbia University (2024-2025). He earned his Bachelor of Science in Statistics: Data Science with a minor in Informatics from the University of Washington, Seattle (2019-2023), where he was a Dean's List student.
 
 He has prior internship experiences as a Data Analyst at Yale School of Medicine, Huaran Information Technology Co., Ltd, and the Data Center of Bank of China. After graduation, Jingyu worked in the Information and Technology Department at the Bank of China, Shanghai branch (2023-2024). His work included customer service, internal control collaboration, telegraphic transfer (TT) data analysis, reporting for Anti-Money Laundering systems, and technical support for banking system operations.
 

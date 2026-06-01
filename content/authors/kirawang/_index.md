@@ -51,7 +51,7 @@ education:
       date_start: 2019
 
 user_groups:
-  - Design Studio Students
-  - Design Studio Volunteers
-
+  #- Design Studio Students
+  #- Design Studio Volunteers
+  #- Past Members
 ---
