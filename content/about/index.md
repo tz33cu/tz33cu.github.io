@@ -11,8 +11,8 @@ sections:
       - title: Welcome to the TZstats Convergence Lab
         content: >-
           The TZstats Convergence Lab is an "*Everyone’s Backyard*." --- 👋🏽 Open by default, 🧩 Modular in practice, 💎 Statistical in mindset, 🧬 Research as education, ⚙️ Design for rigor.
-          <br>
-          <small><em>With gratitude to our generous donor, [Jiayi Chen](https://www.linkedin.com/in/jiayi-chen-a565747/), an alum and longtime supporter of Columbia's various missions.</em></small>
+          <br> <br>
+          <small><em>With gratitude to our generous donor, [Jiayi Chen](https://www.linkedin.com/in/jiayi-chen-a565747/), a Columbia Statistics alum and longtime supporter of Columbia's various missions.</em></small>
         align: left
         background:
           image:
