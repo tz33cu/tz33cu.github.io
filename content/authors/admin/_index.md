@@ -53,9 +53,9 @@ social:
     link: https://orcid.org/0000-0003-4889-0391
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/TianZheng.pdf
+  - icon: file-pdf
+    icon_pack: fas
+    link: /tzheng/uploads/TianZheng.pdf
 
 interests:
   - Applied Statistics and Data Science
