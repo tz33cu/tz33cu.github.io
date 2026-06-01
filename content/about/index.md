@@ -9,9 +9,10 @@ sections:
     content:
       slides:
       - title: Welcome to the TZstats Convergence Lab
-        content: The TZstats Convergence Lab is an "*Everyone’s Backyard*." --- 👋🏽 Open by default, 🧩 Modular in practice, 💎 Statistical in mindset, 🧬 Research as education, ⚙️ Design for rigor.
-        <br>
-        With gratitude to our generous donor, [Jiayi Chen](https://www.linkedin.com/in/jiayi-chen-a565747/), an alum and longtime supporter of Columbia's various missions.
+        content: >-
+          The TZstats Convergence Lab is an "*Everyone’s Backyard*." --- 👋🏽 Open by default, 🧩 Modular in practice, 💎 Statistical in mindset, 🧬 Research as education, ⚙️ Design for rigor.
+          <br>
+          <small><em>With gratitude to our generous donor, [Jiayi Chen](https://www.linkedin.com/in/jiayi-chen-a565747/), an alum and longtime supporter of Columbia's various missions.</em></small>
         align: left
         background:
           image:
@@ -24,7 +25,7 @@ sections:
           icon: newspaper
           icon_pack: fas
           text: "Read about the **Everyone's Backyard** vision"
-          url: 'https://tz33cu.github.io/post/2025-12-29-conv-design-studio/'
+          url: '/post/2025-12-29-conv-design-studio/'
       - title: Convergence Design Studio
         content: 'We innovate through research-centered design practices that keep research questions and data at the core, shaping workflows, methods, and collaborations, promoting scientific rigor through transparency and reproducibility, while offering learning opportunities to our brilliant students.'
         align: left
