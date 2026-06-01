@@ -1,6 +1,11 @@
 ---
 title: TZstats Lab - Selected Recent Publications
-subtitle: "Check out [CV](uploads/TianZheng.pdf) or [Google Scholar](https://scholar.google.com/citations?hl=en&user=-4J-KZoAAAAJ&view_op=list_works&sortby=pubdate) for the full list of publications or our [Zotero Libary](https://www.zotero.org/groups/5213908/tzstats-group/items) for previous publications organized by topics."
+subtitle: >-
+  Check out {{< staticref "uploads/TianZheng.pdf" >}}CV{{< /staticref >}} or
+  [Google Scholar](https://scholar.google.com/citations?hl=en&user=-4J-KZoAAAAJ&view_op=list_works&sortby=pubdate)
+  for the full list of publications or our
+  [Zotero Libary](https://www.zotero.org/groups/5213908/tzstats-group/items)
+  for previous publications organized by topics.
 view: citation
 # type: landing
 

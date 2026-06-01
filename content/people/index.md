@@ -14,7 +14,7 @@ sections:
        <br>
 
         Lab dinner photo - Summer 2022. 
-        
+
         This page is nearly always outdated ... 
 
         <br>
@@ -64,7 +64,7 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       text: |
-        This group has been built through the efforts of many talented researchers. I am proud to have worked alongside the past members of TZStats and excited to follow their continued accomplishments. Because it is not feasible to maintain a complete list of all past mentees on this website, please see my [CV](uploads/TianZheng.pdf) for a comprehensive record. Here are a subset of recent mentees with whom I have coauthored publications.
+        This group has been built through the efforts of many talented researchers. I am proud to have worked alongside the past members of TZStats and excited to follow their continued accomplishments. Because it is not feasible to maintain a complete list of all past mentees on this website, please see my {{< staticref "uploads/TianZheng.pdf" >}}CV{{< /staticref >}} for a comprehensive record. Here are a subset of recent mentees with whom I have coauthored publications.
         <br>
         <br>
       user_groups:
