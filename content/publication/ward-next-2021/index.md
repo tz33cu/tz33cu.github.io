@@ -89,5 +89,3 @@ links:
 - name: arxiv
   url: http://arxiv.org/abs/2007.05385
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

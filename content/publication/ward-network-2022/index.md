@@ -89,5 +89,3 @@ links:
 - name: URL
   url: http://arxiv.org/abs/2012.09598
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

@@ -36,4 +36,7 @@ image:
   preview_only: no
 projects: []
 slides: ''
+links:
+  - name: GitHub (TZstats-Columbia)
+    url: https://github.com/TZstats-Columbia/WDL_MM_CTL
 ---

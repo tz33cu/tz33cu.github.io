@@ -84,5 +84,3 @@ links:
 - name: arxiv
   url: http://arxiv.org/abs/2001.09359
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

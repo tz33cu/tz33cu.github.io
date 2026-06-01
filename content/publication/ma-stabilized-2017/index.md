@@ -54,7 +54,7 @@ featured: false
 
 # Links
 url_pdf: ''
-url_code: ''
+url_code: 'https://github.com/TZstats-Columbia/StablizedTruncatedSGD-YTM'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -81,8 +81,8 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 links:
+- name: GitHub
+  url: https://github.com/TZstats-Columbia/StablizedTruncatedSGD-YTM
 - name: URL
   url: http://arxiv.org/abs/1604.06498
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

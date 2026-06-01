@@ -20,7 +20,7 @@ authors:
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2025-09-01'
+date: '2026-05-28'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
 publishDate: '2025-10-07T15:45:51.430517Z'
@@ -28,13 +28,13 @@ publishDate: '2025-10-07T15:45:51.430517Z'
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- article
+- article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv*'
+publication: '*Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences*'
 publication_short: ''
 
-doi: 10.48550/arXiv.2510.03305
+doi: 10.1098/rsta.2025.0254
 
 abstract: 'Machine learning has been increasingly applied in climate modeling on system
   emulation acceleration, data-driven parameter inference, forecasting, and knowledge
@@ -65,7 +65,7 @@ tags:
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1098/rsta.2025.0254'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -93,6 +93,8 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 links:
+- name: Journal
+  url: https://doi.org/10.1098/rsta.2025.0254
 - name: arXiv
   url: http://arxiv.org/abs/2510.03305
 ---

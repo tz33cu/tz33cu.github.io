@@ -93,8 +93,8 @@ projects:
 - AutoClimDS
 
 links:
+- name: GitHub (TZstats-Columbia)
+  url: https://github.com/TZstats-Columbia/AutoClimDS
 - name: arXiv
   url: http://arxiv.org/abs/2509.21553
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

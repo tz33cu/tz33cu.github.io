@@ -16,7 +16,7 @@ authors:
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2021-12-01'
+date: '2023-02-17'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
 publishDate: '2025-10-07T15:45:51.460788Z'
@@ -29,7 +29,7 @@ publication_types: ["article-journal"]
 publication: '*Science Advances*'
 publication_short: ''
 
-doi: 10.48550/arXiv.2112.03270
+doi: 10.1126/sciadv.abn3999
 
 abstract: "Probabilistic machine learning increasingly informs critical decisions
   in medicine, economics, politics, and beyond. We need evidence to support that the
@@ -58,7 +58,7 @@ tags:
 featured: false
 
 # Links
-url_pdf: ''
+url_pdf: 'https://www.science.org/doi/pdf/10.1126/sciadv.abn3999'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -86,8 +86,8 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 links:
+- name: Journal
+  url: https://doi.org/10.1126/sciadv.abn3999
 - name: arXiv
   url: http://arxiv.org/abs/2112.03270
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
