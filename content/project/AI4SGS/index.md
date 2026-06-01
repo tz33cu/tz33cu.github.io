@@ -27,5 +27,4 @@ featured: true
 The AI for Social Good and Society (AI4SGS) Initiative is a bold interdisciplinary effort to apply artificial intelligence to some of the world’s most pressing social and public health challenges. 
 
 Currect subprojects include: text mining, topic modeling, and causal inference.
-
 ---
