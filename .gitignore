@@ -9,6 +9,9 @@
 # Generated site output
 public/
 
+# Draft posts (keep local only)
+content/post/drafts/
+
 # Hugo resources (processed assets)
 resources/
 
