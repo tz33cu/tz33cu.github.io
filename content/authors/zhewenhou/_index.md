@@ -1,5 +1,5 @@
 ---
-title: "Zhewen Hour"
+title: "Zhewen Hou"
 first_name: Zhewen
 last_name: Hou
 role: Former PhD student in Statistics, Columbia
