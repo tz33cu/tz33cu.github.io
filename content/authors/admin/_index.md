@@ -45,8 +45,8 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/tian-zheng-082402/
-  - icon: google-scholar
-    icon_pack: ai
+  - icon: graduation-cap
+    icon_pack: fas
     link: https://scholar.google.com/citations?user=-4J-KZoAAAAJ&hl=en
   - icon: orcid
     icon_pack: fab
