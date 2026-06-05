@@ -82,6 +82,8 @@ sections:
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
         
         {{% cta cta_link="./contact/" cta_text="Contact Info →" %}}
+
+        {{< aiwidget >}}
     design:
       columns: '1'
       background:
