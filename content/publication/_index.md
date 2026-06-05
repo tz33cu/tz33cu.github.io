@@ -33,3 +33,5 @@ view: citation
 #       view: citation
 #       columns: "1"
 ---
+
+{{< aiwidget >}}

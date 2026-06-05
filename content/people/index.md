@@ -75,4 +75,13 @@ sections:
       show_interests: false
       show_role: true
       show_social: false
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text: |
+        {{< aiwidget >}}
+    design:
+      columns: '1'
 ---

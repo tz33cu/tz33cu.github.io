@@ -36,4 +36,13 @@ sections:
       columns: '2'
       # Choose a listing view
       view: compact
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text: |
+        {{< aiwidget >}}
+    design:
+      columns: '1'
 ---

@@ -81,4 +81,13 @@ sections:
       loop: false
       # Duration of transition between slides (in ms)
       interval: 2000
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text: |
+        {{< aiwidget >}}
+    design:
+      columns: '1'
 ---

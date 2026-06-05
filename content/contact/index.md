@@ -55,7 +55,8 @@ sections:
     content:
       title:
       subtitle: ''
-      text:
+      text: |
+        {{< aiwidget >}}
     design:
       columns: '1'
       background:
