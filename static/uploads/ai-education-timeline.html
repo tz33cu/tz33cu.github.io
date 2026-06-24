@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI and Higher Education: A Brief Timeline — aiX Programs, Columbia University</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1a1a1a;background:#fff;line-height:1.6;padding:2rem 1rem}
+@media(prefers-color-scheme:dark){body{background:#1a1a1a;color:#e8e8e8}}
+.container{max-width:760px;margin:0 auto}
+h1{font-size:22px;font-weight:600;margin-bottom:4px;text-align:center}
+.subtitle{font-size:14px;color:#666;text-align:center;margin-bottom:4px;max-width:540px;margin-left:auto;margin-right:auto}
+@media(prefers-color-scheme:dark){.subtitle{color:#999}}
+.credit{font-size:12px;color:#888;text-align:center;margin-bottom:1.5rem;font-style:italic}
+@media(prefers-color-scheme:dark){.credit{color:#777}}
+
+/* Filter buttons */
+.tw-filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:1rem}
+.tw-filter-btn{font-size:12px;padding:4px 14px;border-radius:20px;border:1.5px solid #999;background:transparent;color:#666;cursor:pointer;transition:all .15s;font-family:inherit}
+.tw-filter-btn:hover{border-color:#555;color:#333}
+@media(prefers-color-scheme:dark){.tw-filter-btn{border-color:#555;color:#999}.tw-filter-btn:hover{border-color:#888;color:#ccc}}
+.tw-filter-btn.active[data-category="Education"]{background:#1D9E75;border-color:#1D9E75;color:#fff}
+.tw-filter-btn.active[data-category="AI capability"]{background:#D97706;border-color:#D97706;color:#fff}
+.tw-filter-btn.active[data-category="AI risk exposed"]{background:#DB2777;border-color:#DB2777;color:#fff}
+
+.tw-legend{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:1.5rem;font-size:12px;color:#666;justify-content:center}
+@media(prefers-color-scheme:dark){.tw-legend{color:#999}}
+.tw-legend-item{display:flex;align-items:center;gap:5px}
+.tw-legend-dot{width:10px;height:10px;border-radius:50%}
+.tw-legend-square{width:10px;height:10px;border-radius:2px}
+.tw-labels{display:flex;justify-content:space-between;margin-bottom:8px;padding:0 8px}
+.tw-label{font-size:13px;font-weight:500;display:flex;align-items:center;gap:6px}
+.tw-label-pos{color:#0F6E56}
+.tw-label-neg{color:#A32D2D}
+@media(prefers-color-scheme:dark){.tw-label-pos{color:#5DCAA5}.tw-label-neg{color:#F09595}}
+.tw-row{display:flex;align-items:stretch;min-height:64px}
+.tw-left,.tw-right{flex:1;padding:4px 0}
+.tw-center{width:40px;flex-shrink:0;display:flex;flex-direction:column;align-items:center}
+.tw-line{width:2px;flex:1;background:#e0e0e0}
+@media(prefers-color-scheme:dark){.tw-line{background:#333}}
+.tw-dot{width:12px;height:12px;border-radius:50%;z-index:1;flex-shrink:0}
+.tw-dot-square{border-radius:2px}
+.tw-year-marker{background:#f5f5f5;border-radius:6px;padding:2px 10px;font-size:14px;font-weight:600;color:#1a1a1a;z-index:2;white-space:nowrap}
+@media(prefers-color-scheme:dark){.tw-year-marker{background:#2a2a2a;color:#e8e8e8}}
+.tw-card{padding:8px 12px;border-radius:8px;border:0.5px solid #e0e0e0;background:#fff;cursor:pointer;transition:all .15s;margin:3px 0}
+.tw-card:hover{border-color:#bbb}
+@media(prefers-color-scheme:dark){.tw-card{background:#222;border-color:#333}.tw-card:hover{border-color:#555}}
+.tw-card-dashed{border-style:dashed}
+.tw-card-left{margin-right:8px;text-align:right}
+.tw-card-right{margin-left:8px}
+.tw-card-date{font-size:11px;color:#999}
+.tw-card-title{font-size:13px;font-weight:500;margin:1px 0 3px}
+.tw-card-tag{font-size:10px;padding:1px 6px;border-radius:6px;display:inline-block}
+.tw-card-stakes{font-size:11px;color:#999;margin-top:3px}
+.tw-card-detail{display:none;margin-top:6px;padding-top:6px;border-top:0.5px solid #e0e0e0;font-size:12px;color:#666;line-height:1.5;text-align:left}
+@media(prefers-color-scheme:dark){.tw-card-detail{border-color:#333;color:#aaa}}
+.tw-card-detail.open{display:block}
+.tw-card-detail a{color:#185FA5;text-decoration:none}
+.tw-card-detail a:hover{text-decoration:underline}
+@media(prefers-color-scheme:dark){.tw-card-detail a{color:#85B7EB}}
+.tag-pos{background:#E1F5EE;color:#085041}
+.tag-neg{background:#FCEBEB;color:#791F1F}
+.tag-frame{background:#E6F1FB;color:#0C447C}
+.tag-evi{background:#EEEDFE;color:#3C3489}
+.tag-cap{background:#FEF3C7;color:#92400E}
+.tag-risk{background:#FCE7F3;color:#9D174D}
+.dot-pos{background:#1D9E75}
+.dot-neg{background:#E24B4A}
+.dot-frame{background:#378ADD}
+.dot-evi{background:#7F77DD}
+.dot-cap{background:#D97706}
+.dot-risk{background:#DB2777}
+@media(prefers-color-scheme:dark){
+.tag-pos{background:#04342C;color:#9FE1CB}
+.tag-neg{background:#501313;color:#F7C1C1}
+.tag-frame{background:#042C53;color:#B5D4F4}
+.tag-evi{background:#26215C;color:#CECBF6}
+.tag-cap{background:#78350F;color:#FDE68A}
+.tag-risk{background:#831843;color:#FBCFE8}
+}
+.footer{text-align:center;margin-top:2rem;padding-top:1rem;border-top:1px solid #e0e0e0;font-size:12px;color:#999}
+@media(prefers-color-scheme:dark){.footer{border-color:#333}}
+.footer a{color:#185FA5;text-decoration:none}
+@media(prefers-color-scheme:dark){.footer a{color:#85B7EB}}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>AI and Higher Education: A Brief Timeline</h1>
+<p class="subtitle">Pivotal moments in AI & higher education. AI is fast shifting and disruptive. Each entry marks a moment that may have shaped the trajectory.</p>
+<p class="credit">Curated by Claude and Reviewed by Tian Zheng. Updated as new pivotal moments emerge from the aiX Weekly Newsletter.</p>
+
+<div class="tw-filters">
+<button class="tw-filter-btn" data-category="Education" onclick="toggleFilter(this)">Education</button>
+<button class="tw-filter-btn" data-category="AI capability" onclick="toggleFilter(this)">AI capability</button>
+<button class="tw-filter-btn" data-category="AI risk exposed" onclick="toggleFilter(this)">AI risk exposed</button>
+</div>
+
+<div class="tw-legend">
+<span class="tw-legend-item"><span class="tw-legend-dot" style="background:#1D9E75"></span>Progress / adoption</span>
+<span class="tw-legend-item"><span class="tw-legend-dot" style="background:#378ADD"></span>Governance / framework</span>
+<span class="tw-legend-item"><span class="tw-legend-dot" style="background:#7F77DD"></span>Evidence / research</span>
+<span class="tw-legend-item"><span class="tw-legend-dot" style="background:#E24B4A"></span>Concern / resistance</span>
+<span class="tw-legend-item"><span class="tw-legend-square" style="background:#D97706"></span>AI Capability</span>
+<span class="tw-legend-item"><span class="tw-legend-square" style="background:#DB2777"></span>AI Risk Exposed</span>
+</div>
+<div class="tw-labels">
+<span class="tw-label tw-label-pos"><i class="ti ti-arrow-left" aria-hidden="true" style="font-size:14px"></i> Opportunities and progress</span>
+<span class="tw-label tw-label-neg">Concerns and tensions <i class="ti ti-arrow-right" aria-hidden="true" style="font-size:14px"></i></span>
+</div>
+<div id="tl"></div>
+<div class="footer">
+<p>Click any event to expand. Last updated June 24, 2026.</p>
+<p style="margin-top:4px">From aiX Weekly Digest, TZStats Lab, Columbia University</p>
+</div>
+</div>
+<script>
+const data=[
+{year:2022,items:[
+{side:'left',date:'Nov 2022',title:'ChatGPT launches',type:'pos',category:'Education',tag:'Catalyst',stakes:'Students, Industry, Faculty',detail:'100M users in 2 months. Higher education caught unprepared, but a new era of possibility opens.',sources:[['Reuters','https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/']]}
+]},
+{year:2023,items:[
+{side:'right',date:'Jan 2023',title:'The ban wave begins',type:'neg',category:'Education',tag:'Ban',stakes:'Administration, Students',detail:'NYC DOE bans ChatGPT. Universities follow. The instinct: treat AI as a threat to block.',sources:[['Washington Post','https://www.washingtonpost.com/education/2023/01/05/nyc-schools-ban-chatgpt/']]},
+{side:'right',date:'Mar 2023',title:'GPT-4 passes bar exam, SAT, GRE',type:'risk',category:'AI risk exposed',tag:'Disruption',stakes:'Faculty',detail:'Passes bar exam top 10% (GPT-3.5: bottom 10%), SAT 93rd percentile, GRE Verbal 99th percentile, 5/5 on AP exams. AI stopped being a writing assistant and became a professional-grade test-taker. Does our exam still measure what we think it measures?',sources:[['OpenAI','https://openai.com/index/gpt-4-research/'],['TechCrunch','https://techcrunch.com/2023/03/14/openai-releases-gpt-4-ai-that-it-claims-is-state-of-the-art/']]},
+{side:'right',date:'Mar 2023',title:'Goldman Sachs: 300M jobs at risk',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'Goldman Sachs estimates generative AI could automate tasks equivalent to 300 million full-time jobs worldwide. White-collar professions — legal, finance, writing — face the highest exposure. The report that launched workforce anxiety across every discipline.',sources:[['Goldman Sachs','https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent']]},
+{side:'right',date:'Spring 2023',title:'The syllabus scramble',type:'neg',category:'Education',tag:'Disruption',stakes:'Faculty',detail:'Faculty rewrite syllabi and integrity codes with no coordination. Each instructor improvises alone. By fall, Columbia releases new disciplinary guidelines calling unauthorized AI use "one of the most serious offenses a student can commit" and convenes a Provost\'s Working Group on Generative AI.',sources:[['Princeton McGraw Center','https://mcgraw.princeton.edu/guidance-aichatgpt'],['Columbia Spectator','https://www.columbiaspectator.com/news/2023/09/13/columbia-releases-new-disciplinary-guidelines-on-generative-ai/']]},
+{side:'right',date:'Apr 2023',title:'Turnitin launches AI detection',type:'neg',category:'Education',tag:'Detection',stakes:'Administration, Students',detail:'2.1M educators gain AI detection before accuracy is studied.',sources:[['K-12 Dive','https://www.k12dive.com/news/turnitin-launches-AI-writing-detection/646632/']]},
+{side:'left',date:'May 2023',title:'NYC reverses the ban',type:'pos',category:'Education',tag:'Course correction',stakes:'Administration',detail:'NYC lifts the ban after 4 months. Chancellor Banks: "the knee-jerk fear and risk overlooked the potential." By October, NYC launches an AI Policy Lab.',sources:[['NBC News','https://www.nbcnews.com/tech/chatgpt-ban-dropped-new-york-city-public-schools-rcna85089']]},
+{side:'right',date:'Jun 2023',title:'Lawyer sanctioned for AI-fabricated cases',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'Mata v. Avianca: attorney submits six fake case citations generated by ChatGPT. Judge sanctions $5,000. First major public demonstration that AI hallucinates authoritatively.',sources:[['Wikipedia','https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc.'],['ACC','https://www.acc.com/resource-library/practical-lessons-attorney-ai-missteps-mata-v-avianca']]},
+{side:'right',date:'Jul 2023',title:'OpenAI discontinues its AI detector',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'OpenAI shuts down its AI text classifier, citing 26% accuracy and 9% false positive rate. Demonstrated the fundamental difficulty of distinguishing AI-generated from human-written text.',sources:[['OpenAI','https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/'],['TechCrunch','https://techcrunch.com/2023/07/25/openai-scuttles-ai-written-text-detector-over-low-rate-of-accuracy/']]},
+{side:'left',date:'Sep 2023',title:'UNESCO global AI guidance',type:'frame',category:'Education',tag:'Framework',stakes:'Policymakers',detail:'First international AI & education framework. Age-13 minimum proposed.',sources:[['UNESCO','https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research']]},
+{side:'left',date:'Oct 2023',title:'Biden AI Executive Order',type:'frame',category:'Education',tag:'Governance',stakes:'Policymakers, Industry',detail:'110-page order: safety testing, civil rights protections, 100+ actions across 50 agencies. First comprehensive US federal AI policy.',sources:[['White House','https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/'],['CNBC','https://www.cnbc.com/2023/10/30/biden-unveils-us-governments-first-ever-ai-executive-order.html']]},
+{side:'left',date:'Fall 2023',title:'AAC&U AI pedagogy institute',type:'frame',category:'Education',tag:'Framework',stakes:'Faculty, Administration',detail:'Grows to 316 teams from 296 institutions.',sources:[['AAC&U','https://www.aacu.org/newsroom/aacu-launches-new-institute-on-ai-pedagogy-and-the-curriculum']]},
+{side:'left',date:'Late 2023',title:'Microsoft-AFL-CIO partnership',type:'pos',category:'Education',tag:'Adoption',stakes:'Industry, Policymakers',detail:'AI in education becomes a labor issue. Unions engage as stakeholders.',sources:[['Microsoft','https://blogs.microsoft.com/on-the-issues/2023/12/11/afl-cio-and-microsoft-announce-new-tech-labor-partnership-on-ai-and-the-future-of-the-workforce/'],['AFL-CIO','https://aflcio.org/press/releases/afl-cio-and-microsoft-announce-new-tech-labor-partnership-ai-and-future-workforce']]}
+]},
+{year:2024,items:[
+{side:'left',date:'Feb 2024',title:'Sora: AI generates realistic video',type:'cap',category:'AI capability',tag:'Capability',stakes:'',detail:'OpenAI previews Sora — photorealistic video from text. Raises fundamental questions about evidence and authenticity.',sources:[['OpenAI','https://openai.com/index/sora/']]},
+{side:'left',date:'Early 2024',title:'The infrastructure deals',type:'pos',category:'Education',tag:'Adoption',stakes:'Administration, Industry',detail:'Universities sign platform deals: Copilot, Gemini, OpenAI. Columbia licenses ChatGPT Enterprise for all users and announces "Columbia AI," a university-wide initiative powered by the Data Science Institute to bring AI to every field and discipline.',sources:[['Stanford UIT','https://uit.stanford.edu/news/now-available-google-gemini-notebooklm-and-microsoft-copilot-chat'],['Columbia News','https://news.columbia.edu/news/introducing-columbia-ai']]},
+{side:'right',date:'Jan 2024',title:'AI robocall impersonates Biden',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'25,000 New Hampshire voters receive AI-generated Biden voice urging them not to vote.',sources:[['NBC News','https://www.nbcnews.com/politics/2024-election/fake-joe-biden-robocall-tells-new-hampshire-democrats-not-vote-rcna135120']]},
+{side:'left',date:'May 2024',title:'GPT-4o: native voice and vision',type:'cap',category:'AI capability',tag:'Capability',stakes:'',detail:'Real-time voice conversation, native image understanding. AI becomes conversational — changes the tutoring use case.',sources:[['OpenAI','https://openai.com/index/hello-gpt-4o/']]},
+{side:'left',date:'Jul 2024',title:'EU AI Act enters into force',type:'frame',category:'Education',tag:'Governance',stakes:'Policymakers, Industry',detail:'World\'s first comprehensive AI regulation. Risk-based framework. Penalties up to 7% of global revenue.',sources:[['White & Case','https://www.whitecase.com/insight-alert/long-awaited-eu-ai-act-becomes-law-after-publication-eus-official-journal']]},
+{side:'right',date:'Mid 2024',title:'False-accusation lawsuits',type:'neg',category:'Education',tag:'Crisis',stakes:'Students, Administration',detail:'Yale, Adelphi, Palo Alto lawsuits. Detectors flag non-native speakers 61% of the time. 50+ universities drop detection.',sources:[['Rolling Stone','https://www.rollingstone.com/culture/culture-features/student-accused-ai-cheating-turnitin-1234747351/']]},
+{side:'left',date:'Oct 2024',title:'Claude computer use: AI operates a desktop',type:'cap',category:'AI capability',tag:'Capability',stakes:'',detail:'AI can see screens, click, type, and navigate applications autonomously. Moves from text generation to action.',sources:[['Anthropic','https://www.anthropic.com/news/3-5-models-and-computer-use']]},
+{side:'right',date:'2024',title:'AI misconduct cases surge 400%',type:'neg',category:'Education',tag:'Enforcement',stakes:'Administration, Students',detail:'UK: 1.6 to 7.5 per 1,000 students. Surge coincides with widespread adoption of AI detection tools later shown to have high false-positive rates, particularly for non-native English speakers. Unclear how much reflects actual misconduct vs. detection tool unreliability.',sources:[['Strauss Troy','https://www.strausstroy.com/articles/ai-and-academic-integrity-a-growing-crisis']]},
+{side:'left',date:'2024',title:'UNESCO competency frameworks',type:'frame',category:'Education',tag:'Framework',stakes:'Policymakers',detail:'Frameworks for students and teachers. Training in 100+ countries.',sources:[['UNESCO','https://www.unesco.org/en/articles/unesco-recognizes-four-initiatives-promoting-responsible-use-ai-education']]},
+{side:'right',date:'2024-25',title:'AI incidents reveal systemic risks across sectors',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'ISACA documents recurring patterns across seven risk domains: privacy breaches (hiring platform exposes 64M records), discrimination (facial recognition wrongful arrests), deepfake fraud and misinformation, AI-assisted cyberattacks, chatbot safety failures involving minors, environmental harms from data centers, and system reliability failures including hallucinated legal citations and medical advice. The incidents were not isolated — they reflected organizational gaps in governance, oversight, and accountability.',sources:[['ISACA','https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2025/avoiding-ai-pitfalls-in-2026-lessons-learned-from-top-2025-incidents'],['MIT AI Risk','https://airisk.mit.edu/ai-incident-tracker/risk-classification']]},
+{side:'right',date:'2024',title:'Freelance writing jobs decline 33%',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'Writing jobs on Upwork drop 33%, translation 19% within 15 months of ChatGPT\'s launch. Hourly rates fall 20% for translation. First measurable AI labor displacement — and it hits the disciplines faculty teach.',sources:[['Olin Business School','https://olin.wustl.edu/about/news-and-media/news/2023/08/study-ai-tools-cause-a-decline-in-freelance-work-and-incomeat-least-in-the-short-run.php'],['Entrepreneur','https://www.entrepreneur.com/business-news/ai-is-taking-over-these-freelancing-jobs-the-most-report/471183']]},
+{side:'right',date:'2024',title:'AI surpasses PhD experts on science exams',type:'risk',category:'AI risk exposed',tag:'Disruption',stakes:'Faculty',detail:'On GPQA-Diamond (PhD-level science questions), AI scores 7+ points above the ~70% expert baseline. GPT-4 exceeds student averages on 7/9 graduate biomedical exams. If AI outperforms the experts who write the exams, what is the exam measuring — and what is education for?',sources:[['Nature','https://www.nature.com/articles/s41598-024-55568-7'],['IntuitionLabs','https://intuitionlabs.ai/articles/gpqa-diamond-ai-benchmark']]},
+{side:'left',date:'Fall 2024',title:'AFT $23M AI training academy',type:'pos',category:'Education',tag:'Adoption',stakes:'Industry, Faculty',detail:'Microsoft, OpenAI, Anthropic fund free AI training for 1.8M AFT members.',sources:[['AFT','https://seekingalpha.com/pr/20159659-aft-to-launch-national-academy-for-ai-instruction-with-microsoft-openai-anthropic-and-united']]}
+]},
+{year:2025,items:[
+{side:'left',date:'Jan 2025',title:'DeepSeek R1: open-source rivals GPT-4',type:'cap',category:'AI capability',tag:'Capability',stakes:'',detail:'Built in 2 months for under $6M. Matches GPT-4o. Open-source. Proves frontier AI is no longer an American monopoly.',sources:[['World Economic Forum','https://www.weforum.org/stories/2025/02/open-source-ai-innovation-deepseek/'],['CNBC','https://www.cnbc.com/2025/05/29/chinas-deepseek-releases-upgraded-r1-ai-model-in-openai-competition.html']]},
+{side:'left',date:'Jan 2025',title:'Trump rescinds Biden AI Executive Order',type:'frame',category:'Education',tag:'Governance',stakes:'Policymakers, Industry',detail:'Executive order revoked; replaced with a policy emphasis on AI innovation and competitiveness. Shifts federal AI approach from safety-first regulation to industry-led development.',sources:[['Wiley','https://www.wiley.law/alert-President-Trump-Revokes-Biden-Administrations-AI-EO-What-To-Know'],['Lawfare','https://www.lawfaremedia.org/article/trump-rescinds-biden-ai-executive-order']]},
+{side:'right',date:'Jan 2025',title:'WEF: 92M jobs displaced by 2030',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'World Economic Forum Future of Jobs Report: 92 million jobs eliminated, 170 million created (net +78M) by 2030. But 63% of employers cite skills gaps as the top barrier, and 41% plan workforce reductions. The timing mismatch — jobs lost now, jobs created later — is the crisis.',sources:[['World Economic Forum','https://www.weforum.org/publications/the-future-of-jobs-report-2025/'],['SHRM','https://www.shrm.org/topics-tools/flagships/ai-hi/future-of-jobs-report-2025-deep-dive']]},
+{side:'left',date:'Early 2025',title:'Research links AI use to weaker critical thinking',type:'evi',category:'Education',tag:'Evidence',stakes:'Faculty, Students',detail:'CMU/Microsoft: self-confidence protects critical thinking. MIT: 55% lower neural connectivity with AI (\'cognitive debt\').',sources:[['CHI 2025','https://dl.acm.org/doi/full/10.1145/3706598.3713778'],['MIT Media Lab','https://www.media.mit.edu/publications/your-brain-on-chatgpt/']]},
+{side:'left',date:'Mar 2025',title:'Gemini 2.5: AI reasons through problems',type:'cap',category:'AI capability',tag:'Capability',stakes:'',detail:'Advanced multi-step reasoning, million-token context, native multimodal understanding. AI can now \'think\' through complex problems.',sources:[['Google Blog','https://blog.google/innovation-and-ai/products/2025-research-breakthroughs/']]},
+{side:'right',date:'Spring 2025',title:'90% of faculty fear critical thinking loss',type:'neg',category:'Education',tag:'Resistance',stakes:'Faculty',detail:'Near-unanimity becomes a flashpoint. Perception gap between faculty and administration widens. At Columbia, the Spectator reports faculty "grappling" with AI\'s place in the classroom even as the administration expands AI infrastructure. By fall, the Sundial publishes "Columbia Students Aren\'t Talking About AI" — arguing that student silence on AI reflects careerism and institutional deference rather than informed consent.',sources:[['Inside Higher Ed','https://www.insidehighered.com/news/faculty-issues/teaching/2026/01/21/survey-faculty-say-ai-impactful-not-good-way'],['Columbia Spectator','https://www.columbiaspectator.com/news/2025/03/31/as-ais-influence-spreads-columbia-grapples-with-its-place-in-the-classroom/'],['Sundial','https://www.sundial-cu.org/p/columbia-students-arent-talking-about']]},
+{side:'right',date:'Spring 2025',title:'IREX: 1 in 3 has AI strategy',type:'evi',category:'Education',tag:'Evidence',stakes:'Administration',detail:'Most institutions flying blind. Fewer than 1 in 5 have governance structures.',sources:[['IREX','https://www.irex.org/news/irex-and-development-gateway-release-higher-education-ai-readiness-research']]},
+{side:'right',date:'Aug 2025',title:'AI scores perfect 100% on USMLE',type:'risk',category:'AI risk exposed',tag:'Disruption',stakes:'Faculty, Students',detail:'OpenEvidence: first perfect score on US Medical Licensing Exam. ChatGPT-5 scores 97%. If AI can ace the exam that certifies doctors, what is medical school teaching that AI cannot? The question generalizes to every professional program.',sources:[['Fierce Healthcare','https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-ai-scores-100-usmle-company-offers-free-explanation-model'],['OpenEvidence','https://www.openevidence.com/announcements/openevidence-creates-the-first-ai-in-history-to-score-a-perfect-100percent-on-the-united-states-medical-licensing-examination-usmle']]},
+{side:'right',date:'Sep 2025',title:'AI passes CFA Level III in minutes',type:'risk',category:'AI risk exposed',tag:'Disruption',stakes:'Faculty, Students',detail:'Leading AI models pass all CFA levels including essays. Humans study 1,000+ hours; AI: minutes. When the credential can be earned without the learning, the credential stops signaling what it used to. Every discipline built around professional certification faces this.',sources:[['CNBC','https://www.cnbc.com/2025/09/24/ai-cfa-exam-pass-minutes-study.html'],['Entrepreneur','https://www.entrepreneur.com/business-news/it-takes-humans-1000-hours-of-study-to-pass-the-cfa-exam/497537']]},
+{side:'right',date:'2025',title:'$25.6M deepfake financial fraud',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'Multinational company loses $25.6M when employee deceived by deepfake video call impersonating CFO. AI-enabled fraud at institutional scale.',sources:[['CNN','https://www.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html']]}
+]},
+{year:2026,items:[
+{side:'right',date:'Early 2026',title:'Cal State AI deal sparks campus tension',type:'neg',category:'Education',tag:'Backlash',stakes:'Faculty, Students',detail:'Cal State signs $17M OpenAI contract without faculty consultation. Faculty and students push back, raising questions about who decides how AI enters the classroom.',sources:[['NPR','https://www.npr.org/2026/05/25/nx-s1-5772820/artificial-intelligence-education-technology-california-state-university']]},
+{side:'right',date:'Mar 2026',title:'Writing teachers vote to refuse AI',type:'neg',category:'Education',tag:'Resistance',stakes:'Faculty',detail:'CCCC passes resolution asserting the right to opt out.',sources:[['Inside Higher Ed','https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/03/16/writing-faculty-push-right-refuse-ai']]},
+{side:'left',date:'Apr 2026',title:'AI agents go autonomous',type:'cap',category:'AI capability',tag:'Capability',stakes:'',detail:'GPT-5.5, Claude Opus 4, Gemini 3 — all with native computer use. AI can browse, code, and execute multi-step tasks. \'AI as tool\' gives way to \'AI as agent.\'',sources:[['AI Fire','https://www.aifire.co/p/ai-agent-autonomy-in-2026-claude-gemini-openclaw']]},
+{side:'left',date:'Apr 2026',title:'China mandates AI as core course',type:'frame',category:'Education',tag:'Framework',stakes:'Policymakers',detail:'Most comprehensive national AI education mandate globally.',sources:[['S&T Daily','https://www.stdaily.com/web/English/2026-04/28/content_509054.html']]},
+{side:'right',date:'Spring 2026',title:'Entry-level white-collar job crisis',type:'risk',category:'AI risk exposed',tag:'Risk exposed',stakes:'',detail:'College graduate unemployment reaches 5.6% — highest since 2013 excluding the pandemic. Job postings on Handshake fall 16%, applications per role jump 26%. BlackRock CEO Fink warns Class of 2026. Senator Warner warns grad unemployment could hit 25%. The question students and parents are asking: why pay for a degree if AI does the entry-level job?',sources:[['CNBC','https://www.cnbc.com/2025/12/03/college-grad-unemployment-ai-job-risk-senator-mark-warner.html'],['Washington Monthly','https://washingtonmonthly.com/2026/05/29/ai-entry-level-jobs-college-graduates/']]},
+{side:'right',date:'Spring 2026',title:'90% of students already use AI',type:'evi',category:'Education',tag:'Evidence',stakes:'Students, Faculty',detail:'Stanford HAI confirms saturation. The prohibition debate is empirically settled.',sources:[['Stanford HAI','https://hai.stanford.edu/ai-index/2026-ai-index-report/education']]},
+{side:'right',date:'Aug 2026',title:'EU AI Act high-risk rules take effect',type:'frame',category:'Education',tag:'Governance',stakes:'Policymakers, Industry',detail:'High-risk AI system requirements become enforceable. Educational AI classified high-risk. Penalties up to 7% of global revenue.',sources:[['Kennedys Law','https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/']]}
+]}
+];
+
+const tl=document.getElementById('tl');
+const activeFilters=new Set();
+
+function toggleFilter(btn){
+const cat=btn.dataset.category;
+if(activeFilters.has(cat)){activeFilters.delete(cat);btn.classList.remove('active')}
+else{activeFilters.add(cat);btn.classList.add('active')}
+renderTimeline();
+}
+
+function renderTimeline(){
+tl.innerHTML='';
+let idx=0;
+data.forEach(yr=>{
+const visibleItems=yr.items.filter(item=>activeFilters.size===0||activeFilters.has(item.category));
+if(visibleItems.length===0) return;
+const row=document.createElement('div');row.className='tw-row';
+row.innerHTML='<div class="tw-left"></div><div class="tw-center"><div class="tw-line"></div><div class="tw-year-marker">'+yr.year+'</div><div class="tw-line"></div></div><div class="tw-right"></div>';
+tl.appendChild(row);
+visibleItems.forEach(item=>{
+const r=document.createElement('div');r.className='tw-row';
+const dotClass='dot-'+item.type;
+const tagClass='tag-'+item.type;
+const isSquare=(item.type==='cap'||item.type==='risk');
+const isDashed=isSquare;
+const dotSquareClass=isSquare?' tw-dot-square':'';
+const dashedClass=isDashed?' tw-card-dashed':'';
+const srcHtml=item.sources.map(function(s){return'<a href="'+s[1]+'" target="_blank" rel="noopener">'+s[0]+'</a>'}).join(' &middot; ');
+const stakesHtml=item.stakes?'<div class="tw-card-stakes">'+item.stakes+'</div>':'';
+const card='<div class="tw-card tw-card-'+item.side+dashedClass+'" onclick="document.getElementById(\'d'+idx+'\').classList.toggle(\'open\')"><div class="tw-card-date">'+item.date+'</div><div class="tw-card-title">'+item.title+'</div><span class="tw-card-tag '+tagClass+'">'+item.tag+'</span>'+stakesHtml+'<div class="tw-card-detail" id="d'+idx+'"><p style="margin:0 0 4px">'+item.detail+'</p><div>'+srcHtml+'</div></div></div>';
+if(item.side==='left'){
+r.innerHTML='<div class="tw-left">'+card+'</div><div class="tw-center"><div class="tw-line"></div><div class="tw-dot '+dotClass+dotSquareClass+'"></div><div class="tw-line"></div></div><div class="tw-right"></div>';
+}else{
+r.innerHTML='<div class="tw-left"></div><div class="tw-center"><div class="tw-line"></div><div class="tw-dot '+dotClass+dotSquareClass+'"></div><div class="tw-line"></div></div><div class="tw-right">'+card+'</div>';
+}
+tl.appendChild(r);
+idx++;
+});
+});
+}
+
+renderTimeline();
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+{{ $path := .Get "path" }}
+{{ $url := printf "%s%s" .Site.BaseURL $path }}
+<iframe src="{{ $url }}" width="100%" height="800" style="border:none; border-radius:8px;" loading="lazy"></iframe>
+<p><a href="{{ $url }}" target="_blank">View full screen →</a></p>
