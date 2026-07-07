@@ -13,7 +13,6 @@ tags:
 Welcome to the **inaugural issue** of *aiX Weekly* — a curated digest of research, institutional moves, and debate at the intersection of AI and higher education. 
 
 <!--more-->
-**AI Education Trends, Discussion, and Development in Faculty Development, Expertise Grounding, and Emerging New Ideas.**
 
 Each issue is organized around a set of recurring sections and pairs with our companion [AI and Higher Education timeline]({{< relref "/post/2026-06-24-ai-education-timeline/" >}}), which traces the broader arc of how AI has reshaped higher education since late 2022.
 
