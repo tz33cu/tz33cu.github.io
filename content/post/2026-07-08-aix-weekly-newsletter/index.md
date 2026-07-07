@@ -1,6 +1,6 @@
 ---
 title: "aiX Weekly — AI in Higher Education (July 8th, 2026)"
-date: 2026-07-07
+date: 2026-07-08
 draft: false
 image:
   focal_point: 'top'
@@ -14,7 +14,7 @@ This issue tracks converging empirical evidence on AI and learning outcomes, SUN
 
 <!--more-->
 
-Each [aiX Weekly](/tags/aix/) issue is organized around a set of recurring sections and pairs with our companion [AI and Higher Education timeline]({{< relref "/post/2026-06-24-ai-education-timeline/" >}}), which traces the broader arc of how AI has reshaped higher education since late 2022.
+Each [aiX Weekly]({{< relref "/tags/aiX/" >}})  issue is organized around a set of recurring sections and pairs with our companion [AI and Higher Education timeline]({{< relref "/post/2026-06-24-ai-education-timeline/" >}}), which traces the broader arc of how AI has reshaped higher education since late 2022.
 
 *Curated by Claude for the [aiX Programs, Columbia University](https://www.linkedin.com/company/aix-programs-columbia-university/). AI can make mistakes and so is the human reviewer. Please double-check the linked sources.*
 
