@@ -63,7 +63,7 @@ This week's most notable development is converging empirical evidence on AI's re
 
 A ten-year panel analysis of 3.2 million ALEKS learning interactions found that after ChatGPT's release, college students' study time on AI-susceptible math problems declined 2.8% per quarter, cumulating to a 26.9% reduction over eleven quarters. Retention testing showed a 25% cumulative decline in odds of correct response — and this divergence vanished under proctored conditions, ruling out genuine efficiency gains. The age gradient is informative: fifth graders, least likely to use AI independently, showed no detectable effect.
 
-`Longitudinal panel analysis · n=3.2M interactions · Strong evidence`
+`Longitudinal panel analysis`
 
 > 💬 **Editor's note:**  *I found The proctored vs. unproctored finding to be interesting and well-studied to distinguish genuine efficiency from substitution. For curricular design, this is useful evidence for thinking about where unsupervised practice fits in a course. This study also offers a great discussion case study on observational study, experimental design, hypothesis testing at all levels of the statistics curriculum. — TZ*
 
@@ -74,7 +74,7 @@ A ten-year panel analysis of 3.2 million ALEKS learning interactions found that 
 
 Analyzing over 500,000 grades from 2018–2025 at a large Texas research university, Berkeley researchers found that AI-exposed courses saw A grades rise by 13 percentage points — roughly 30% above the 2022 baseline. The increases concentrated in writing and coding courses, and were larger where homework carried greater weight. The homework-weight finding identifies a concrete design lever faculty can adjust.
 
-`Observational study with difference-in-differences · n=500,000+ grades · Strong evidence for pattern`
+`Observational study with difference-in-differences`
 
 > 💬 **Editor's note:** *I like how the author used a LLM to process all syllabi when determining a course' AI exposure as a way to scale the study. The concentration of grade inflation in writing and coding — the domains where AI tools are most capable — is informative for curricular planning. The homework-weight mechanism is a particularly useful finding: it identifies something faculty can act on directly. The Chronicle [covered this study](https://www.chronicle.com/newsletter/teaching/2026-05-14) and it's generated substantive discussion. — TZ*
 
@@ -85,7 +85,7 @@ Analyzing over 500,000 grades from 2018–2025 at a large Texas research univers
 
 Tracking 26,811 secondary students over 30 months, researchers found that generative AI reduced homework completion time by ~30% and increased homework scores by 18%, but monthly exam scores decreased by ~20% within six months. High-stakes entrance exam penalties reached 18–24% over two years. Roughly 80% of learning losses stemmed from a "fast completion + high score" behavioral signature — a practical detection pattern that doesn't rely on AI detection tools.
 
-`Longitudinal cohort study · n=26,811 over 30 months · Strong evidence`
+`Longitudinal cohort study`
 
 > 💬 **Editor's note:** *Three studies in this post all point in a similar direction: a measurable gap between performance signals and assessed competence. The "fast completion + high score" behavioral marker offers a practical insight for curriculum design. Turning knowledge exposure into skills and intuition require slowness and frictions beyond conventional homework and exams. — TZ*
 
