@@ -1,6 +1,6 @@
 ---
 title: "aiX Weekly — AI in Higher Education (July 8th, 2026)"
-date: 2026-07-08
+date: 2026-07-07
 draft: false
 image:
   focal_point: 'top'
