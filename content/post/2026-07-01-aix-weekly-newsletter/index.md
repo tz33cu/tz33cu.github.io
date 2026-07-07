@@ -24,7 +24,7 @@ Each issue is organized around a set of recurring sections and pairs with our co
 
 ## TL;DR — Questions This Issue Helps You Think About
 
-- **How do we measure AI competency among faculty?** → New FALCON-AI scale attempts to offer a validated instrument ([Research Highlights](#research-highlights))
+- **How do we measure AI competency among faculty?** → New FALCON-AI scale attempts to offer an instrument ([Research Highlights](#research-highlights))
 - **What does the evidence say about AI and critical thinking?** → New studies find a correlation with cognitive offloading — but self-efficacy may be a moderating factor ([Research Highlights](#research-highlights), [Most Discussed](#most-discussed))
 - **How are large-scale AI deployments playing out?** → Cal State's $17M OpenAI contract is generating discussion about governance and consultation ([What's in the News](#whats-in-the-news))
 - **What's the conversation around faculty autonomy in AI adoption?** → Writing teachers passed a resolution on the right to opt out; the broader discussion continues ([What's in the News](#whats-in-the-news))
@@ -70,13 +70,9 @@ On the ground, institutions are working through familiar tensions. Cal State's $
 ### FALCON-AI: A New Scale for Measuring Faculty AI Competency
 `Instrument Development · Empirical Evidence`
 
-**Why this research:** Institutions are pouring resources into faculty AI training, but how do you know it's working? Existing AI literacy instruments were built for students or the general public and miss the role-specific demands faculty face — teaching with AI, researching with AI, and governing its use in their departments are fundamentally different tasks.
+Institutions are pouring resources into faculty AI training, but how do you know it's working? Existing AI literacy instruments were built for students or the general public and miss the role-specific demands faculty face — teaching with AI, researching with AI, and governing its use in their departments are fundamentally different tasks.
 
 Song, Moon, Yang & Kilgore (2026) developed the **FALCON-AI Scale**, a psychometrically validated instrument designed specifically for university faculty — addressing a gap the authors identify in existing instruments, which lacked role-embedded faculty indicators. Grounded in the Critical Tech-resilient Literacies (CTRL) framework, it maps 43 items across three literacies (functional, evaluative, ethical) and four faculty work domains (general, teaching, research, service).
-
-**What remains unclear:** The scale measures self-reported competency, not demonstrated performance. Whether higher FALCON-AI scores actually predict better teaching or more effective AI integration is untested. The validation sample's demographic breadth also needs examination.
-
-**Practice implications:** Faculty development programs can use FALCON-AI as a pre/post assessment to evaluate training effectiveness — a significant upgrade over satisfaction surveys. It could also help institutions identify which faculty domains (teaching vs. research vs. service) have the largest competency gaps, enabling targeted investment.
 
 [Source: arXiv:2603.20220](https://arxiv.org/abs/2603.20220)
 
@@ -86,13 +82,9 @@ Song, Moon, Yang & Kilgore (2026) developed the **FALCON-AI Scale**, a psychomet
 ### AI-Overdependence and Cognitive Decline: New Evidence
 `Systematic Review + Empirical Study`
 
-**Why this research:** The central anxiety in AI education is whether AI tools are eroding the cognitive capacities they're supposed to support. Faculty sense it anecdotally — students seem less willing to struggle with hard problems — but the field has lacked synthesized evidence.
+The central anxiety in AI education is whether AI tools are eroding the cognitive capacities they're supposed to support. Faculty sense it anecdotally — students seem less willing to struggle with hard problems — but the field has lacked synthesized evidence.
 
 A 2026 review in *Computers in Human Behavior Reports* synthesizes findings suggesting that higher AI use correlates with greater cognitive offloading and lower critical thinking scores, with younger users most affected. A complementary Carnegie Mellon/Microsoft Research study reveals a crucial paradox: confidence in GenAI tools was associated with *less* critical thinking, while self-confidence was associated with *more*.
-
-**What remains unclear:** Causality. Do students who already have weaker critical thinking skills gravitate toward AI, or does AI use actively degrade those skills? The review cautions about differentiating between "correlational patterns derived from large-scale surveys and the causal mechanisms identified through controlled experiments." Longitudinal and experimental designs in realistic settings are urgently needed. The self-confidence finding also raises questions about what builds self-confidence in the first place — is it prior knowledge, pedagogy, or personality? 
-
-**Practice implications:** The self-confidence finding is directly actionable. Course designs that build student self-efficacy — through mastery experiences, productive struggle, and scaffolded challenges — may protect against cognitive offloading more effectively than AI usage policies alone. This reframes the intervention target: don't just teach students *about* AI, build their confidence that *they* can think. 
 
 [Source: Computers in Human Behavior Reports](https://www.sciencedirect.com/science/article/pii/S2451958826001764) | [Center for Engaged Learning](https://www.centerforengagedlearning.org/unlocking-the-link-between-generative-ai-confidence-and-critical-thinking-skills/)
 
@@ -102,13 +94,9 @@ A 2026 review in *Computers in Human Behavior Reports* synthesizes findings sugg
 ### Critical Inker: Scaffolding Critical Thinking in AI-Assisted Writing
 `System Design · Preprint · Interesting Concept`
 
-**Why this research:** If students are going to use AI for writing regardless of policy, the question becomes: can we design the interaction itself to preserve cognitive engagement? Most AI writing tools optimize for output quality, not learning — the student gets a better essay but does less thinking.
+If students are going to use AI for writing regardless of policy, the question becomes: can we design the interaction itself to preserve cognitive engagement? Most AI writing tools optimize for output quality, not learning — the student gets a better essay but does less thinking.
 
 **Critical Inker** takes a different approach: it uses Socratic questioning to interrupt the passive consumption of AI-generated text, prompting students to evaluate, question, and refine. The system intervenes at the point of cognitive offloading rather than trying to prevent AI use altogether.
-
-**What remains unclear:** Much about effectiveness at scale. This is a preprint describing a prototype with early technical evaluation and a small-scale pilot — but there's no controlled study comparing learning outcomes with and without the intervention. Whether Socratic prompting actually changes cognitive engagement or becomes another thing students click through is an open question. The approach also assumes students are motivated to engage with the prompts, which may not hold.
-
-**Practice implications:** Even without extensive evidence, the design principle is worth adopting: if you can't prevent AI use, design friction into the workflow that requires thinking. 
 
 [Source: arXiv:2604.07167](https://arxiv.org/pdf/2604.07167)
 
@@ -118,13 +106,9 @@ A 2026 review in *Computers in Human Behavior Reports* synthesizes findings sugg
 ### AI Competency Strategies via LLM-Based Delphi Method
 `Exploratory / Methodological`
 
-**Why this research:** Identifying what AI competencies matter in higher education usually requires expensive, slow expert consensus processes. Can AI accelerate the process of defining what humans need to know about AI?
+Identifying what AI competencies matter in higher education usually requires expensive, slow expert consensus processes. Can AI accelerate the process of defining what humans need to know about AI?
 
 This *Frontiers in Education* study replaces human expert panels with an LLM-based Delphi methodology to identify essential AI competencies, examine integration barriers, and propose strategies.
-
-**What remains unclear:** The fundamental validity question: when you ask an LLM what humans should know about AI, are you getting expert consensus or a mirror of the model's training data? 
-
-**Practice implications:** Treat the output as a hypothesis generator, not a validated framework. The competencies identified could seed a traditional Delphi study or faculty survey, saving time on the initial brainstorming phase. 
 
 [Source: Frontiers in Education](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1683909/full)
 
@@ -133,13 +117,9 @@ This *Frontiers in Education* study replaces human expert panels with an LLM-bas
 ### Capability-Based Training Framework for GenAI in Higher Ed
 `Conceptual Framework / Literature Review`
 
-**Why this research:** Most AI literacy frameworks stop at "understanding" — can you define what a neural network is, can you identify bias. But faculty and students don't just need to understand AI; they need to *use* it effectively within their disciplines. The gap between knowing what AI is and knowing how to apply it in your field is where most training programs fall short.
+*Most AI literacy frameworks stop at "understanding" — can you define what a neural network is, can you identify bias. But faculty and students don't just need to understand AI; they need to *use* it effectively within their disciplines. The gap between knowing what AI is and knowing how to apply it in your field is where most training programs fall short.
 
 This *Frontiers in Education* framework proposes moving from literacy to capability — structured training that develops the ability to use generative AI in discipline-specific contexts, not just comprehend it abstractly.
-
-**What remains unclear:** The framework draws on literature and document analysis but still lacks implementation data, pilot results, or learning outcomes from actual deployments.
-
-**Practice implications:** The literacy-to-capability framing is useful for program design even without the specifics. For a faculty development program, we need to move from teaching "what is ChatGPT," to teaching "here's how to use AI to do X in your discipline, and here's when not to." 
 
 [Source: Frontiers in Education](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1594199/full)
 
