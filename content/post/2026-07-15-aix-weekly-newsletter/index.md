@@ -72,7 +72,7 @@ Microsoft's third annual report surveyed 3,345 respondents across K-12 and highe
 ### 2. Digital Education Council LATAM Survey: 30,000 Responses Across 29 Institutions
 **[AI in Higher Education LATAM Survey 2026](https://www.digitaleducationcouncil.com/post/92-of-students-and-79-of-faculty-actively-engaging-with-ai-findings-from-ai-in-higher-education-latam-survey-2026)**
 
-Surveying over 30,000 respondents (22,941 students, 7,319 faculty) across 29 Latin American institutions, the study found 92% of students and 79% of faculty actively engage with AI. Notably, 65% of students worry AI may make learning "too shallow" — mirroring [RAND's US findings]((https://www.rand.org/pubs/research_reports/RRA4742-1.html) in a completely different cultural and linguistic context. A 31-point gap emerged between students wanting AI-assisted feedback (50%) and faculty providing it (19%).
+Surveying over 30,000 respondents (22,941 students, 7,319 faculty) across 29 Latin American institutions, the study found 92% of students and 79% of faculty actively engage with AI. Notably, 65% of students worry AI may make learning "too shallow" — mirroring [RAND's US findings](https://www.rand.org/pubs/research_reports/RRA4742-1.html) in a completely different cultural and linguistic context. A 31-point gap emerged between students wanting AI-assisted feedback (50%) and faculty providing it (19%).
 
 `Large-scale survey`
 
@@ -83,7 +83,7 @@ Surveying over 30,000 respondents (22,941 students, 7,319 faculty) across 29 Lat
 ### 3. HEPI Policy Note: What UK University AI Policies Actually Do
 **[What UK University AI Policies Actually Do: A Study of 96 Institutions](https://www.hepi.ac.uk/reports/what-uk-university-ai-policies-actually-do-a-study-of-96-institutions/)**
 
-Professor Sam Illingworth computationally analyzed AI policies of 96 UK degree-awarding institutions, with 41% had no publicly accessible AI policy. Of those that did, 86% appeared education-focused by keyword count, but close reading of a subset found nearly half were actually detection-and-discipline frameworks using educational language as a veneer. Full data and coding framework available on [GitHub](https://github.com/sam-illingworth/uk-university-ai-policies).
+Professor Sam Illingworth computationally analyzed AI policies of 96 UK degree-awarding institutions, — 41% had no publicly accessible AI policy. Of those that did, 86% appeared education-focused by keyword count, but close reading of a subset found nearly half were actually detection-and-discipline frameworks using educational language as a veneer. Full data and coding framework available on [GitHub](https://github.com/sam-illingworth/uk-university-ai-policies).
 
 `Policy analysis`
 
@@ -97,7 +97,7 @@ Professor Sam Illingworth computationally analyzed AI policies of 96 UK degree-a
 ### 1. Lumina-Gallup: 47% of Students Have Considered Switching Majors Due to AI
 **[College Students Weigh AI's Impact on Majors and Careers (Gallup)](https://news.gallup.com/poll/704087/college-students-weigh-impact-majors-careers.aspx)**
 
-The Lumina Foundation-Gallup 2026 study surveyed 6,010 US adults who opited-in via an online panel, including 3,801 enrolled students. Nearly half (47%) have given serious consideration to switching majors because of AI, and 16% have already done so. Technology (70%) and vocational fields (71%) show the highest consideration rates. Male students (60%) are more likely to consider changes than female students (38%).
+The Lumina Foundation-Gallup 2026 study surveyed 6,010 US adults who opted-in via an online panel, including 3,801 enrolled students. Nearly half (47%) have given serious consideration to switching majors because of AI, and 16% have already done so. Technology (70%) and vocational fields (71%) show the highest consideration rates. Male students (60%) are more likely to consider changes than female students (38%).
 
 > 💬 **Editor's note:** *It's understandable that students are reconsidering their majors in response to AI. What I'm left wondering is how students are actually making these decisions. Which factors did they weigh — projected job security, salary, how "automatable" a field seems, their own interest? And how did they arrive at those judgments? It's still genuinely unclear which skills will hold the most value in an AI-native workforce. If students are steering away from fields on the assumption that AI will hollow them out, that assumption is doing a lot of work, and it may or may not be right. The survey captures the reaction but not the reasoning behind it. I'd want to see the reasoning before concluding these shifts are well-calibrated rather than driven by a diffuse sense of anxiety about a still-uncertain future. — TZ*
 
@@ -108,7 +108,7 @@ The Lumina Foundation-Gallup 2026 study surveyed 6,010 US adults who opited-in v
 
 Surrey has undertaken a systematic redesign of every degree program to embed discipline-specific AI teaching, shifting assessment toward process over outputs. English literature students, for example, will submit annotated close-reading extracts alongside essays. The approach applies to current students, not just incoming ones — a level of institutional commitment few universities have executed.
 
-> 💬 **Editor's note:** *The assessment shift — from evaluating what students produce to evaluating how they produce it — is definitely an important move in the right direction. It's also the probably very labor-intensive for both the faculty and students. I am wondering what faculty development and support infrastructures are in place to support such process-based assessments across all departments. In addition, how such assessements are designed to ensure students perceive them as meaningful. — TZ*
+> 💬 **Editor's note:** *The assessment shift — from evaluating what students produce to evaluating how they produce it — is definitely an important move in the right direction. It's also probably very labor-intensive for both the faculty and students. I am wondering what faculty development and support infrastructures are in place to support such process-based assessments across all departments. In addition, how such assessements are designed to ensure students perceive them as meaningful. — TZ*
 
 ---
 

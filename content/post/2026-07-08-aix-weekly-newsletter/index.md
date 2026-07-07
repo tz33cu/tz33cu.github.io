@@ -151,12 +151,12 @@ At least 150 AI "humanizer" tools now exist to rewrite AI-generated text to evad
 
 ---
 
-### 4. NPR: Students and Professors Make Their Own AI Rules
-**[College students, professors are making their own AI rules. They don't always agree (NPR)](https://www.npr.org/2026/03/03/nx-s1-5716176/ai-college-students-professors)** *(Note: NPR article was inaccessible during verification; broad framing is consistent with other reporting.)*
+### 4. The Economist: AI Models' Values Don't Reflect Most of the World's
+**[AI models' values are very different from most people's (The Economist)](https://theeconomistoffthecharts.substack.com/p/ai-models-values-are-very-different)**
 
-NPR documented the gap between student and faculty AI norms across U.S. colleges. Faculty set AI policies course by course; students develop informal norms about when AI use is acceptable. A student might be encouraged to use AI in one course and accused of cheating for identical behavior in another.
+The Economist tested 25 frontier AI models against the World Values Survey — the same instrument used since 1981 to map cultural values across 100+ countries. The models overwhelmingly cluster in the quadrant populated by rich Western nations. OpenAI's GPT models score more secular than any country on earth; Google's Gemini models emphasize individual freedom more than any human population surveyed. No model reflects the worldviews of most African or Muslim countries. Chinese models like DeepSeek show distinctly different value alignments.
 
-> 💬 **Editor's note:** *I actually think it's reasonable for AI policies to vary course by course, based on how each course's pedagogy is designed. The key is to state these policies clearly and, for each course, explain how they serve that course's educational goals. — TZ*
+> 💬 **Editor's note:** *An AI tutor trained to emphasize individual self-expression may give quite different guidance than one oriented toward collective responsibility — and neither is "wrong." The pedagogical question is whether students understand that AI advice comes with embedded values. — TZ*
 
 ---
 
