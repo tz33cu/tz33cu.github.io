@@ -10,11 +10,11 @@ tags:
   - AI
   - aiX
 ---
-This issue tracks converging empirical evidence on AI and learning outcomes, SUNY's systemwide AI policy across all 64 campuses, and the fast-growing market for detection-evasion tools.
+This post tracks converging empirical evidence on AI and learning outcomes, SUNY's systemwide AI policy across all 64 campuses, and the fast-growing market for detection-evasion tools.
 
 <!--more-->
 
-Each [aiX Weekly]({{< relref "/tags/aiX/" >}})  issue is organized around a set of recurring sections and pairs with our companion [AI and Higher Education timeline]({{< relref "/post/2026-06-24-ai-education-timeline/" >}}), which traces the broader arc of how AI has reshaped higher education since late 2022.
+Each [aiX Weekly]({{< relref "/tags/aiX/" >}})  post is organized around a set of recurring sections and pairs with our companion [AI and Higher Education timeline]({{< relref "/post/2026-06-24-ai-education-timeline/" >}}), which traces the broader arc of how AI has reshaped higher education since late 2022.
 
 *Curated by Claude for the [aiX Programs, Columbia University](https://www.linkedin.com/company/aix-programs-columbia-university/). AI can make mistakes and so is the human reviewer. Please double-check the linked sources.*
 
