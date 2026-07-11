@@ -149,6 +149,15 @@ THE's coverage of the HEPI study (detailed in Research Highlights) emphasized th
 
 ---
 
+### 4. AI Campus Index: First National Ranking of Universities on AI Readiness
+**[AI Campus Index](https://aicampusindex.com/)**
+
+The AI Campus Index is the first national platform ranking colleges and universities on how well they use and provide AI — across student access, teaching, research, governance, and operations. Rankings are based on publicly available data and self-reported institutional surveys. The index provides a comparative benchmark at a time when most institutions are making AI investments without clear metrics for progress.
+
+> 💬 **Editor's note:** *A ranking inevitably shapes behavior. Worth watching how institutions respond. — TZ*
+
+---
+
 ## Most Discussed
 ![Most Discussed](media/most-discussed.png)
 
@@ -198,6 +207,20 @@ A comprehensive open-source curriculum covering 20 phases from fundamentals to a
 **[LearnHouse (GitHub)](https://github.com/learnhouse/learnhouse)**
 
 A next-generation open-source learning platform featuring a block-based content editor, AI-generated interactive elements, code execution with auto-grading in 30+ languages, collaborative whiteboards, and context-aware AI for learning and teaching. An open-source alternative to proprietary LMS platforms.
+
+---
+
+### 4. Plano: AI-Native Proxy for Cost Control in Agentic Apps
+**[Plano (GitHub)](https://github.com/katanemo/plano)**
+
+An open-source AI-native proxy and data plane for agentic applications — with built-in orchestration, smart LLM routing, observability, and guardrail filters. Useful for institutions experimenting with multi-agent workflows who need cost control and model management without building custom infrastructure. 6.7K stars.
+
+---
+
+### 5. Speechmatics Academy: Open-Source Voice AI Examples and Tutorials
+**[Speechmatics Academy (GitHub)](https://github.com/speechmatics/speechmatics-academy)**
+
+A comprehensive collection of working examples for speech-to-text and text-to-speech applications — from basic transcription to real-time voice agents, healthcare dictation, and multilingual support. Useful for faculty exploring voice-based AI tutors or accessibility tools. Includes integrations with LiveKit, Pipecat, and Twilio for building conversational AI applications.
 
 ---
 
