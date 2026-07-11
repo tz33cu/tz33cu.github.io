@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        TZstats Convergence Lab @ Columbia
+        TZStats aiX Lab @ Columbia
       image:
         filename: welcome.jpg
       cta:

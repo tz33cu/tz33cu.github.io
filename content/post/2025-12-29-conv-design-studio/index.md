@@ -9,6 +9,10 @@ authors:
 tags:
   - AI
 ---
+{{% callout note %}}
+**Editor's note:** The "Convergence Design Studio" has since been renamed the **aiX Design Studio**. The original name is retained below for historical reference.
+{{% /callout %}}
+
 The TZStats **Convergence Design Studio** at Columbia is envisioned as an *Everyone’s Backyard* : a shared, open space where faculty, students, and technical partners come together to experiment, build, and learn with Data Science and AI in ways that are grounded in resarch collaborations.
 <!--more-->
 

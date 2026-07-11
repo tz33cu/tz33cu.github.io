@@ -179,7 +179,16 @@ Anthropic's report documents the shift from AI as coding assistant to autonomous
 
 ---
 
-### 3. Early-Career Employment Decline in AI-Exposed Occupations
+### 3. Brown Professor Suspects Majority of Class Used AI to Cheat on Take-Home Midterm
+**[Brown Professor Suspects Most of His Class Used AI to Cheat (Inside Higher Ed)](https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat)**
+
+Brown economics professor Roberto Serrano gave his first take-home midterm in nearly two decades — prompted by student anxiety after a campus shooting. The class had grown from ~30 to 86 students. The midterm average was 96%, far above the historical 65–80% range. After switching the final to in-person, the average dropped to 48.6% — a historic low. Eighteen students dropped the course, nine skipped the final, and 19 failed. Brown's own generative AI committee, reporting the same week, found 75% of faculty concerned about AI cheating and recommended that faculty "de-emphasize punishment" while establishing clearer norms.
+
+> 💬 **Editor's note:** *This case is an opportunity for an important conversation with our students. When we use AI, it becomes genuinely difficult to assess how much of the work we "own" — how much of the thinking, the problem-solving, the learning actually happened inside our own heads. Students aren't necessarily trying to cheat; many may not fully realize how much cognitive work they're offloading. What we can do is offer more low-stakes, self-assessment opportunities — practice problems, ungraded quizzes, reflective exercises — and remind students that the point of doing them without AI is to learn how much they're actually learning. The gap between Serrano's midterm and final scores is the gap between AI-assisted performance and demonstrated competence. Students deserve to see that gap for themselves, in low-stakes settings, before it shows up on an exam. — TZ*
+
+---
+
+### 4. Early-Career Employment Decline in AI-Exposed Occupations
 **[Software Developer Employment for Ages 22-25 Falls Nearly 20% Since 2022](https://frontierwisdom.com/ai-impact-on-software-engineer-jobs-2026/)**
 
 Employment data shows that early-career workers in AI-exposed occupations — software development, clerical work, content creation — have experienced 16% relative employment declines since 2022, while employment for experienced workers remains stable. NBER projects approximately 502,000 AI-related job cuts in 2026, roughly 9x the estimated 55,000 in 2025. 

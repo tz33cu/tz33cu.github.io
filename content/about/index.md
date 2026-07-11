@@ -8,9 +8,9 @@ sections:
   - block: slider
     content:
       slides:
-      - title: Welcome to the TZstats Convergence Lab
+      - title: Welcome to the TZStats aiX Lab
         content: >-
-          The TZstats Convergence Lab is an "*Everyone’s Backyard*." 
+          The TZStats aiX Lab is an "*Everyone’s Backyard*." 
           <br>
            👋🏽 Open by default, 🧩 Modular in practice, 💎 Statistical in mindset, 🧬 Research as education, ⚙️ Design for rigor.
           <br> <br>
@@ -28,7 +28,7 @@ sections:
           icon_pack: fas
           text: "Read about the **Everyone's Backyard** vision"
           url: '/post/2025-12-29-conv-design-studio/'
-      - title: Convergence Design Studio
+      - title: aiX Design Studio
         content: 'We innovate through research-centered design practices that keep research questions and data at the core, shaping workflows, methods, and collaborations, promoting scientific rigor through transparency and reproducibility, while offering learning opportunities to our brilliant students.'
         align: left
         background:
@@ -59,7 +59,8 @@ sections:
           text: 'How to apply for MA mentored research.'
           url: 'https://ma.stat.columbia.edu/ma-honors-research/'
       - title: Stay Informed
-        content: 
+        content: >-
+          Follow the [**TZStats aiX Lab on LinkedIn**](https://www.linkedin.com/company/aix-programs-columbia-university/) for lab news, and connect with Professor Zheng below.
         align: left
         background:
           image:
@@ -71,7 +72,7 @@ sections:
         link:
           icon: linkedin
           icon_pack: ai
-          text: "Follow me on LinkedIn"
+          text: "Follow Professor Zheng on LinkedIn"
           url: 'https://www.linkedin.com/in/tian-zheng-082402/'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')

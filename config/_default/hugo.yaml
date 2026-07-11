@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: "TZstats Convergence Lab | Tian Zheng, Columbia Stats"
+title: "TZStats aiX Lab | Tian Zheng, Columbia Stats"
 # Website URL
 baseURL: 'https://tz33cu.github.io/'
 # publishDir: '/Users/tianzheng/Library/CloudStorage/Dropbox/Tian_Site/tzstats-2025/public'

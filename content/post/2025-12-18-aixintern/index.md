@@ -9,6 +9,10 @@ authors:
 tags:
   - AI
 ---
+{{% callout note %}}
+**Editor's note:** The "aiX Convergence Design Studio" has since been renamed the **aiX Design Studio**. The original name is retained below for historical reference.
+{{% /callout %}}
+
 Call for applications for the *aiX Convergence Design Studio Internship program* for Spring-Summer 2026. The aiX Convergence Design Studio is part of the [aiX Faculty Fellowship Program]({{< relref "/post/2025-10-13-aixprogram/" >}}), a new cross-disciplinary initiative. The design studio interns will support faculty fellows in designing and developing human-centered, discipline-specific AI learning experiences. 
 <!--more-->
 

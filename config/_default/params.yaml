@@ -8,7 +8,7 @@
 hugoblox:
   schema: "2.0"
   identity:
-    name: TZStats Convergence Lab
+    name: TZStats aiX Lab
     type: person
     description: "Tackling real-world problems with data, tools, methods — and preparing the next generation of polymath problem solvers."
     organization: Columbia University
