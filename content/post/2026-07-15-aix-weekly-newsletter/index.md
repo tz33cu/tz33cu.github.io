@@ -10,7 +10,7 @@ tags:
   - AI
   - aiX
 ---
-This issue examines the widening gap between near-universal AI adoption and institutional readiness — from Microsoft and Gallup survey data to the platform competition at ISTE 2026.
+This week's post examines the widening gap between near-universal AI adoption and institutional readiness — from Microsoft and Gallup survey data to the platform competition at ISTE 2026.
 
 <!--more-->
 
