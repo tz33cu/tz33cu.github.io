@@ -19,7 +19,7 @@ This timeline is a companion resource to the [aiX Weekly Digest](/tags/aix/), cu
 
 Events are organized on two sides: **opportunities and frameworks** (left) and **concerns and disruptions** (right). Filter by category using the buttons at the top.
 
-Click any event to expand. Last updated July 15, 2026.
+Click any event to expand. Last updated July 24, 2026.
 
 {{< staticfile path="uploads/ai-education-timeline.html" >}}
 
