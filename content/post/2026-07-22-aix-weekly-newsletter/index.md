@@ -64,26 +64,30 @@ Both disruptions share a common structure: AI is powerful enough to increase vol
 
 **[Confirmation Bias: A Challenge for Scalable Oversight](https://arxiv.org/abs/2507.19486)**
 Across two human-subjects studies of simple oversight protocols, participants told that a model is "correct most of the time, but not all of the time" became more confident in the system's answers after conducting their own online research — even when those answers were incorrect. Showing arguments for both candidate answers improved accuracy in the cases where the model was wrong.
+
 `Study type: human-subjects experiments ` 
 
 *Editor's note:* This complicates the default pedagogical move of "have students check the AI." If the act of verifying can increase confidence in wrong answers, then oversight training may need to teach structured disconfirmation — actively seeking the case against — rather than open-ended checking. — TZ
 
 **[(Human) Attention Is (Still) All You Need: Human Oversight Makes AI-Assisted Social Science Reliable](https://arxiv.org/abs/2606.12848)**
 In a pre-registered 2×4 factorial experiment with 280 complete research runs across four datasets, researchers tested whether structured human oversight can make AI-assisted economic research reliable. An unconstrained multi-agent baseline produced critical failures — specification errors, hallucinated findings, unsupported conclusions — in 72% of runs. Their Human-in-the-Loop Economic Research (HLER) architecture, based on pre-commitment, decision sequencing, accountability, and attention allocation, reduced the failure rate to 16%.
+
 `Pre-registered factorial experiment`
 
 *Editor's note:* Oversight may work when it's designed as an architecture rather than an afterthought. For teaching, the four design principles (pre-commitment, sequencing, accountability, attention allocation) are transferable to how students interact with AI in research assignments. — TZ
 
 **[Modeling Human Beliefs about AI Behavior for Scalable Oversight](https://arxiv.org/abs/2502.21262)**
 This paper addresses a foundational challenge for AI oversight: human evaluators may form incorrect beliefs about what AI systems are actually doing in complex tasks, leading to unreliable feedback. The authors formalize how evaluator belief models interact with value learning and introduce "belief model covering" as a way to reduce dependence on precise belief models. Published in Transactions on Machine Learning Research.
+
 `Theoretical/formal analysis`
 
 *Editor's note:* This connects to the confirmation-bias paper earlier in this issue — both identify the same vulnerability from different angles. That paper shows evaluators growing more confident in wrong answers; this one formalizes *why*: their mental models of what the AI is doing can be systematically wrong. For teaching, it suggests that "check the AI's work" is insufficient without first helping students build accurate models of what the AI actually does. — TZ
 
 **[More Versus Better: Artificial Intelligence, Incentives, and the Emerging Crisis in Peer Review](https://pubsonline.informs.org/doi/10.1287/orsc.2026.ed.v37.n3)**
 Journal submission volume is up 42% since ChatGPT's release, but the review system absorbing that volume is degrading in measurable ways. This Organization Science study finds Flesch Reading Ease scores in reviews dropped 1.28 standard deviations, and AI-generated reviews are narrower — more focused on theory, less on data — than human reviews. The scale of the problem came into sharper focus at ICLR 2026, where Pangram Labs estimated 21% of 75,800 reviews (roughly 15,900) were fully AI-generated, with over half showing some AI involvement. ICML 2026 desk-rejected approximately 500 papers for LLM policy violations.
-`Published research
-`
+
+`Published research`
+
 *Editor's note:* When AI simultaneously floods the submission pipeline and degrades the review process, the feedback loop protecting research quality weakens at both ends. — TZ
 
 ---
