@@ -60,7 +60,9 @@ Three threads organize this issue. The first is *durability of learning* — whe
 
 **[Faster Completion, Less Learning: Generative AI Reduced Study Time and the Knowledge Students Build (CEPR Discussion Paper 21577; coverage in Fortune, July 21)](https://cepr.org/publications/dp21577)**
 Researchers from Stockholm University and the University of Hong Kong tracked 26,811 students in grades 7–12 and found that AI adoption raised homework scores by 18% and cut homework completion time by about 30%. Within six months, however, monthly exam scores fell by 20%, and college-entrance-exam performance fell by 18–24%, with the worst results appearing about two years after adoption. The authors attribute roughly 80% of the decline to students who "outsourced" homework — using AI to complete tasks accurately but quickly — rather than to learn from them.
+
 `Large-scale panel / quasi-experimental`
+
 *Editor's note:* This is the mirror image of last week's proctored experiment: there, students who used AI to *understand* kept their gains; here, students who used it to *finish* lost ground months later. The consistent signal across very different designs and populations is that the value shows up in unaided, delayed measurement — which is exactly where most course assessment doesn't look. The 80%-of-decline-from-"outsourcers" figure is worth confirming in the primary paper before citing. — TZ
 
 **[Uncovering the Multidimensional Effects of Generative AI on Learning (Sungkyunkwan University; via Phys.org, July)](https://phys.org/news/2026-07-uncovering-multidimensional-effects-generative-ai.html)**
