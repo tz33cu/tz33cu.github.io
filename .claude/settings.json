@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:1313/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:1313/tzheng/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:1313/tzheng/post/2026-08-12-aix-weekly-newsletter/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:1313/tzheng/post/2026-07-29-aix-weekly-newsletter/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:1313/post/2026-07-29-aix-weekly-newsletter/)",
+      "Bash(sed -n '/Research Highlights {#research-highlights}/,/^---$/p' \"content/post/2026-07-29-aix-weekly-newsletter/index.md\" | head -60)"
+    ],
+    "additionalDirectories": [
+      "/Users/tianzheng/Documents/GitHub/tz33cu.github.io/content/post/2026-07-29-aix-weekly-newsletter"
+    ]
+  }
+}
