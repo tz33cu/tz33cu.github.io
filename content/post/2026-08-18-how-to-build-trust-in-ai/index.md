@@ -159,7 +159,7 @@ Guardrail literature describes controls that monitor or filter model inputs and 
 
 **Explainability** is an umbrella term for methods that help people understand a model or its output. A model-generated explanation is one such method, and it calls for special caution. Asking "why?" usually produces another generation conditioned on the conversation and answer. As the chain-of-thought studies cited above show, we still have to test whether that explanation faithfully reflects factors that affected the answer. Other forms of explainability, including attribution and mechanistic interpretability, study model behavior more directly and deserve separate treatment.
 
-![An agentic loop in which human decisions set the task, constraints, authority, approvals, and use of outputs; grounding feeds the context; alignment shapes model behavior; guardrails and approval gates check proposed steps; tools return observations; and the harness records an evidence trace for human review.](diagram-vocabulary-pipeline.svg?rev=20260818-2)
+![An agentic loop in which human decisions set the task, constraints, authority, approvals, and use of outputs; grounding feeds the context; alignment shapes model behavior; guardrails and approval gates check proposed steps; tools return observations; and the harness records an evidence trace for human review.](diagram-vocabulary-pipeline.svg?rev=20260818-3)
 
 *Figure 1. Where trust-building mechanisms act in an agentic loop.*
 

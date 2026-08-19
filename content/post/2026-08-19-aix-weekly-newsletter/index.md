@@ -1,7 +1,7 @@
 ---
 title: "aiX Weekly — AI in Higher Education (August 19th, 2026)"
 date: 2026-08-19
-draft: true
+draft: false
 authors:
   - admin
 tags:
@@ -11,7 +11,7 @@ image:
   focal_point: 'top'
 ---
 
-This week's issue begins with a revealing design choice at the University of Colorado Colorado Springs. Students now complete an AI-literacy course before receiving access to ChatGPT Edu. That gate may tell us where campus AI adoption is heading.
+Universities are moving from negotiating AI access to designing the conditions around it. This week's issue looks at a growing question: What should students understand before they begin using institutionally provided AI? Requiring AI literacy before access offers one answer and raises a harder question about how campuses will measure what students learn.
 
 <!--more-->
 
