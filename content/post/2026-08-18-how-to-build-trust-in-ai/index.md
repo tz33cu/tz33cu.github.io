@@ -165,7 +165,7 @@ This vocabulary brings us back to the two practical questions from the beginning
 
 Trust is relational. It depends on who is relying on a system, what they are using it for, and what they stand to lose if it fails ([Blanco, 2025](https://doi.org/10.1007/s43681-025-00690-z); [Durán & Pozzi, 2025](https://doi.org/10.1007/s13347-025-00843-2)). From this perspective, a benchmark score can inform the relationship, but it cannot describe the trustor's purpose, vulnerability, or consequences of failure.
 
-Lee and See's influential account of trust in automation distinguishes three bases of trust: *performance* (what the system does), *process* (how it works), and *purpose* (why it was built) ([Lee & See, 2004](https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392)). For this discussion, I find a related distinction helpful: confidence in a recurring *process* and confidence in a particular *outcome* require different evidence.
+Lee and See's influential account of trust in automation distinguishes three bases of trust: *performance* (what the system does), *process* (how it works), and *purpose* (why it was built) ([Lee & See, 2004](https://pubmed.ncbi.nlm.nih.gov/15151155/)). For this discussion, I find a related distinction helpful: confidence in a recurring *process* and confidence in a particular *outcome* require different evidence.
 
 Confidence in a process grows through evaluation across many representative cases. It depends on a track record, known failure modes, monitoring, and evidence that the surrounding controls work. Once established, it can reduce the scrutiny required for routine cases, though high-stakes uses still warrant review.
 
@@ -204,6 +204,6 @@ Statistical thinking should therefore sit at the center of AI education. Student
 - Anthropic (2025), ["Effective harnesses for long-running agents."](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 - T. Lanham et al. (2023), ["Measuring Faithfulness in Chain-of-Thought Reasoning."](https://arxiv.org/abs/2307.13702)
 - M. Turpin et al. (2023), ["Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting."](https://arxiv.org/abs/2305.04388)
-- J. D. Lee & K. A. See (2004), ["Trust in Automation: Designing for Appropriate Reliance,"](https://doi.org/10.1518/hfes.46.1.50_30392) *Human Factors*, 46(1), 50–80.
+- J. D. Lee & K. A. See (2004), ["Trust in Automation: Designing for Appropriate Reliance,"](https://pubmed.ncbi.nlm.nih.gov/15151155/) *Human Factors*, 46(1), 50–80.
 - S. Blanco (2025), ["Human Trust in AI: A Relationship Beyond Reliance."](https://doi.org/10.1007/s43681-025-00690-z) *AI and Ethics*, 5, 4167–4180.
 - J. M. Durán & G. Pozzi (2025), ["Trust and Trustworthiness in AI."](https://doi.org/10.1007/s13347-025-00843-2) *Philosophy & Technology*, 38, article 16.
