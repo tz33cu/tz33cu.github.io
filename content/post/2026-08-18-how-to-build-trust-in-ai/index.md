@@ -16,11 +16,11 @@ AI systems have become remarkably capable. Yet our confidence in them has not gr
 
 Maybe "Can we trust AI?" is too broad a question. Are we trusting the model, the process around it, or the evidence supporting a particular result?
 
-These questions became concrete while I was teaching [a short course on agentic AI at the STAI-X 2026 conference](https://statsupai.org/STAIX2026/short-courses.html#sc1) ([slides](https://docs.google.com/presentation/d/e/2PACX-1vTgzFQgnBTbxxOy4-0FOmMIkiAZrLgEdNKdaX8LSz_X6Estxbn0w2j1Lgs9vpGql7nDLZBoM9hFTuw4/pub?slide=id.p1), [open-source GitHub repository](https://github.com/TZstats-Columbia/STAI-X2026-AgenticAI-ShortCourse)). One design question kept coming up: **Where should an agent have flexibility, and how can we tell whether its actual discretion matches our intention?**
+These questions became concrete while I was teaching [a short course on agentic AI at the STAI-X 2026 conference](https://statsupai.org/STAIX2026/short-courses.html#sc1) ([slides](https://docs.google.com/presentation/d/e/2PACX-1vTgzFQgnBTbxxOy4-0FOmMIkiAZrLgEdNKdaX8LSz_X6Estxbn0w2j1Lgs9vpGql7nDLZBoM9hFTuw4/pub?slide=id.p1), [open-source GitHub repository](https://github.com/TZstats-Columbia/STAI-X2026-AgenticAI-ShortCourse)). One design question kept coming up: **Which decisions shape what an agent can generate and do, and do those decisions match our intention?**
 
 Two ideas were built into the course, and they kept surfacing as we worked through the exercises:
 
-1. **Understand the judgment boundary in an agentic AI tool.** A human must remain accountable for consequential judgments. Design and use the tool so that boundary stays visible.
+1. **Design the boundaries around generation and use.** Choices about the model, context, decoding, tools, permissions, and approval rules steer or constrain what a system can generate and do. Choices about review and application determine how those generations enter human decisions. Make both sets of choices intentional and visible.
 2. **Demand evidence you can verify.** Confidence and a fluent account of reasoning provide weak evidence of reliability. Ask for sources, calculations, and intermediate artifacts you can inspect independently.
 
 <!--more-->
@@ -37,11 +37,11 @@ If the distribution is conditional, **what exactly is it conditional on?** What 
 
 This helps explain why reliability remains such a practical concern. In an [ICML keynote](https://www.normaltech.ai/p/what-will-be-left-for-us-to-work), [Arvind Narayanan](https://www.cs.princeton.edu/~arvindn/) argued that reliability should be measured separately from capability because the two can improve at different rates. The concern also appears in users' experiences. An [Anthropic study of 80,508 voluntary participants with Claude accounts](https://www.anthropic.com/features/81k-interviews) found that unreliability was the most commonly reported concern. It appeared in 26.7% of interviews and included hallucinations, inaccuracies, fake citations, and the burden of verification.
 
-The same flexibility that makes generative AI useful also creates variation. The challenge is to understand where that flexibility comes from, decide how much a task should allow, and examine what the model does with it.
+The same flexibility that makes generative AI useful also creates variation. Trustworthy design begins with deliberate choices about how much flexibility a task should allow, how the distribution should be steered or bounded, and how the resulting generations may be used.
 
-Here is the path through the rest of the post. We will first locate the judgment boundary in probabilistic and agentic systems, then turn to the evidence needed to evaluate a particular result. From there, we will clarify what alignment, grounding, guardrails, harnesses, and explainability each contribute. We will end by distinguishing trust in a process from confidence in an outcome and asking how to keep AI's flexibility visible.
+Here is the path through the rest of the post. We will first examine the decisions that condition, steer, and bound generation, along with those that govern an agent's actions and the use of its output. We will then turn to the evidence needed to evaluate a particular result. From there, we will clarify what alignment, grounding, guardrails, harnesses, and explainability each contribute. We will end by distinguishing trust in a process from confidence in an outcome and asking how to keep AI's flexibility visible.
 
-## Part 1: The judgment boundary
+## Part 1: Decisions that shape generation and use
 
 ### What conditions the next token?
 
@@ -72,6 +72,8 @@ This gives us two complementary questions:
 
 Together, these questions distinguish among models, interfaces, and deployments that might otherwise be grouped under "the LLM."
 
+Each answer reflects a design decision. Training and post-training shape $\theta$. System instructions, retrieved material, memory, and tool results shape $C$. Decoding rules determine how the system selects among possible continuations. These choices steer or bound the conditional distribution from which a generation emerges. They also determine which parts of that process a user can see.
+
 ### Generation creates a space of flexibility
 
 A prompt rarely determines a single continuation. It helps shape a space of possibilities, each with a different probability. Decoding choices affect how the system moves through that distribution. For example, top-*p*, or nucleus, sampling draws from a probability mass whose size changes with the distribution at each step ([Holtzman et al., 2020](https://arxiv.org/abs/1904.09751)).
@@ -80,7 +82,7 @@ Natural language adds even more room for interpretation. Unlike a fully specifie
 
 That room to generate is useful. It allows a model to translate, brainstorm, reframe, compare, draft, and explore.
 
-So I find this question more useful: **Do I understand the room I have given the model?**
+So I find this question more useful: **Do I understand the room the system's design has given the model?**
 
 When I delegate research to a colleague or student, I may give them considerable flexibility. I become uneasy when I cannot see where they exercised judgment, what assumptions they made, or how they moved from evidence to conclusion. The same concern applies to AI.
 
@@ -88,11 +90,13 @@ When I delegate research to a colleague or student, I may give them considerable
 
 An agent may plan, call tools, retrieve and write files, chain steps together, and decide when it is done. Depending on its harness, it may also compact earlier exchanges or select information to retain in memory. These less-visible operations alter the context available later, so a quiet choice about what to retain can shape everything downstream. Anthropic's work on [long-running agent harnesses](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents), for example, describes compaction and the use of progress files and version history to preserve context across sessions.
 
-This is why we kept returning to the idea of a **judgment boundary**: the line between decisions the agent may make and decisions a human must own. That boundary should be a deliberate design choice. Before handing over a task, ask which decisions the agent may make, which require human review, and whether the system's actual behavior respects that division.
+This is why we kept returning to **decision boundaries around generation and use**. I use the phrase in a practical design sense, distinct from the boundary of a statistical classifier. One boundary concerns generation: what information conditions the model, how the distribution is steered, and which outputs are constrained or excluded. A second concerns action: which tools the agent may use, what it may change, and when it must ask for approval. A third concerns use: how people will review, interpret, and act on what the system produces.
+
+These boundaries emerge from many choices made by model developers, system designers, institutions, and users. Some are embedded upstream in training or post-training. Others appear in prompts, retrieval systems, decoding settings, guardrails, tool permissions, memory rules, and escalation policies. Before handing over a task, ask who made each of these decisions, which decisions remain with the agent at runtime, and where consequential use requires human review.
 
 Agentic AI adds a complication to the delegation analogy. People can flag uncertainty or say that a task exceeds their mandate, though they do not always do so. An agent may continue by filling gaps with generated assumptions. Its authority and escalation rules therefore need to be explicit and observable.
 
-A visible judgment boundary tells us where an agent may exercise discretion. The next question is whether a particular result deserves confidence. To answer it, we need concrete evidence that a person can inspect. That takes us from allocating discretion to evaluating what the agent produced.
+Visible decision boundaries show how an agent's discretion was constructed and where human review enters. Evaluating a particular result then requires concrete evidence that a person can inspect. This takes us from designing the space of generation and action to examining what the agent produced.
 
 ## Part 2: Build confidence through evidence
 
@@ -155,11 +159,11 @@ Guardrail literature describes controls that monitor or filter model inputs and 
 
 **Explainability** is an umbrella term for methods that help people understand a model or its output. A model-generated explanation is one such method, and it calls for special caution. Asking "why?" usually produces another generation conditioned on the conversation and answer. As the chain-of-thought studies cited above show, we still have to test whether that explanation faithfully reflects factors that affected the answer. Other forms of explainability, including attribution and mechanistic interpretability, study model behavior more directly and deserve separate treatment.
 
-![An agentic loop in which a human sets the judgment boundary; grounding feeds the context; alignment shapes model behavior; guardrails and approval gates check proposed steps; tools return observations; and the harness records an evidence trace for human review.](diagram-vocabulary-pipeline.svg)
+![An agentic loop in which human decisions set the task, constraints, authority, approvals, and use of outputs; grounding feeds the context; alignment shapes model behavior; guardrails and approval gates check proposed steps; tools return observations; and the harness records an evidence trace for human review.](diagram-vocabulary-pipeline.svg?rev=20260818-2)
 
 *Figure 1. Where trust-building mechanisms act in an agentic loop.*
 
-This vocabulary brings us back to the two practical questions from the beginning. Alignment, guardrails, and harness design help define the judgment boundary. Grounding and well-designed evidence capture make a particular result easier to examine. Explainability can support either goal, depending on the method. Each technique contributes one part of the case for relying on a process or having confidence in an outcome.
+This vocabulary brings us back to the two practical questions from the beginning. None of these mechanisms configures itself. People decide which behavior to encourage through alignment, what evidence to add through grounding, which policies guardrails should enforce, what authority the harness should grant, where approval is required, and what explanations and evidence the system must preserve. Those choices shape the conditional distribution, the agent's permitted actions, and the eventual use of its generations. Together, they form the system's decision boundaries and give us a basis for assessing whether a result deserves confidence.
 
 ## Trust in a process and confidence in an outcome
 
