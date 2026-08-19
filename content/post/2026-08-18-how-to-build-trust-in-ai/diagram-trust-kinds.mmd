@@ -1,0 +1,64 @@
+---
+config:
+  layout: dagre
+  theme: base
+  themeVariables:
+    fontSize: 18px
+  flowchart:
+    curve: linear
+    htmlLabels: true
+    nodeSpacing: 85
+    rankSpacing: 58
+---
+flowchart TB
+  accTitle: Two evidence streams support one reliance decision
+  accDescr: Process evidence establishes baseline confidence in a workflow. Outcome evidence establishes confidence in the current result. These combine into calibrated confidence and are compared with a threshold set by stakes and reversibility.
+
+  subgraph PROCESS["PROCESS CONFIDENCE"]
+    direction TB
+    PE["<div style='width: 360px'><b>PROCESS EVIDENCE</b><br/><span>Representative evaluations<br/>Track record and failure modes<br/>Monitoring and recovery tests</span></div>"]
+    PB["<div style='width: 360px'><b>Baseline confidence</b><br/><span>for this workflow and class of tasks</span></div>"]
+    PE --> PB
+  end
+
+  subgraph OUTCOME["OUTCOME CONFIDENCE"]
+    direction TB
+    OE["<div style='width: 280px'><b>OUTCOME EVIDENCE</b><br/><span>Sources and provenance<br/>Calculations and artifacts<br/>Assumptions and cross-checks</span></div>"]
+    OC["<div style='width: 280px'><b>Case-specific confidence</b><br/><span>for the result in front of you</span></div>"]
+    OE --> OC
+  end
+
+  CC(["<b>Calibrated confidence</b><br/><span>for this workflow, result, and use</span>"])
+  X[" "]
+  S["<div style='width: 300px'><b>REQUIRED THRESHOLD</b><br/><span>set by stakes, reversibility,<br/>and cost of failure</span></div>"]
+  G((" "))
+  D["<div style='width: 330px'><b>HUMAN RELIANCE DECISION</b><br/><span>Rely · Review further · Decline</span></div>"]
+
+  PB --> CC
+  OC --> CC
+  CC --- X
+  X --- G
+  S --> G
+  G --> D
+
+  classDef process fill:#eef4fa,stroke:#6e9fd2,stroke-width:2px,color:#17212b
+  classDef outcome fill:#eff8f5,stroke:#69b69e,stroke-width:2px,color:#17212b
+  classDef calibrated fill:#f4f1ff,stroke:#6f5bd3,stroke-width:2px,color:#17212b
+  classDef threshold fill:#fffaf0,stroke:#c68b15,stroke-width:2px,color:#17212b
+  classDef decision fill:#17212b,stroke:#17212b,stroke-width:2px,color:#ffffff
+  classDef junction fill:#59636e,stroke:#59636e,stroke-width:1px,color:#59636e
+  classDef spacer fill:transparent,stroke:transparent,stroke-width:0px,color:transparent,width:1px,height:1px,padding:0px
+
+  class PE,PB process
+  class OE,OC outcome
+  class CC calibrated
+  class S threshold
+  class D decision
+  class G junction
+  class X spacer
+
+  style PROCESS fill:#f8fbff,fill-opacity:0.25,stroke:#a8c4e1,stroke-width:1px,color:#276fbf
+  style OUTCOME fill:#f8fcfa,fill-opacity:0.25,stroke:#a9d4c6,stroke-width:1px,color:#247b5f
+  linkStyle default stroke:#59636e,stroke-width:4px
+
+  %% After export, enlarge pointEnd markers from 8x8 to 12x12.
