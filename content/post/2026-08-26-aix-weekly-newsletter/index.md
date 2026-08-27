@@ -52,7 +52,7 @@ Each [aiX Weekly]({{< relref "/tags/aiX/" >}}) post is organized around a set of
 
 ![In Focus](media/infocus.png)
 
-#In Focus
+## In Focus
 
 **Three ways to "add AI to the curriculum" — and why the differences matter.**
 
