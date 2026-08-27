@@ -52,6 +52,8 @@ Each [aiX Weekly]({{< relref "/tags/aiX/" >}}) post is organized around a set of
 
 ![In Focus](media/infocus.png)
 
+#In Focus
+
 **Three ways to "add AI to the curriculum" — and why the differences matter.**
 
 Our vocabulary in AI education is catching up to a distinction that has been quietly sharpening. When a campus says it is "adding AI to the curriculum," it could mean three genuinely different things. It might mean *teaching with AI* — using tutors, graders, and generators to help teach existing subjects. It might mean *teaching how to use AI* — the functional skills of prompting and tool selection that now anchor most "AI literacy" requirements. Or it might mean *teaching about AI* — studying the technology itself: how it is built, how it works, what it is made of, and what it does to the people and institutions around it. The first is pedagogy. The second is training. The third is a subject of inquiry — and it is the one now coming into focus.
