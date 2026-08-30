@@ -11,9 +11,11 @@ image:
   focal_point: 'top'
 ---
 
-"Adding AI to the curriculum" can mean three very different things: *Teaching with AI* uses the technology as an instructional enhancer. *Teaching how to use AI* builds skills for carrying out disciplinary inquiries: prompting, tool selection, the "AI competency" now appearing in graduation requirements. *Teaching about AI* is a third thing: it treats AI as an object of study; It may cover asking how these systems actually work, what they are made of, whose labor and data they encode, and what they do to knowledge, learning, and power. This issue looks at that third area.
+"Adding AI to the curriculum" can mean three very different things. 
 
 <!--more-->
+
+*Teaching with AI* uses the technology as an instructional enhancer. *Teaching how to use AI* builds skills for carrying out disciplinary inquiries: prompting, tool selection, the "AI competency" now appearing in graduation requirements. *Teaching about AI* is a third thing: it treats AI as an object of study; It may cover asking how these systems actually work, what they are made of, whose labor and data they encode, and what they do to knowledge, learning, and power. This issue looks at that third area.
 
 Each [aiX Weekly]({{< relref "/tags/aiX/" >}}) post is organized around a set of recurring sections and pairs with our companion [AI and Higher Education timeline]({{< relref "/post/2026-06-24-ai-education-timeline/" >}}), which traces the broader arc of how AI has reshaped higher education since late 2022.
 
