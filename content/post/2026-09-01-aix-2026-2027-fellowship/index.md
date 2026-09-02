@@ -60,7 +60,7 @@ The 2026–2027 fellowship is more sharply focused than previous cycles. Fellows
 
 - Participate in a **kick-off bootcamp** on **AI literacy** and **AI education design**.
 - Design and develop a **discipline-specific AI education project** — a course module, an assignment sequence, a curricular revision, a learning tool, or another concrete artifact for their students — advancing it through the project lifecycle (see [Build Readiness](#build-readiness)).
-- Work **closely with student consultants and designers** throughout the fellowship.
+- Actively direct and supervise the curricular direction of their project and work **closely with student consultants and designers** throughout the fellowship. 
 - Join **Zoom consultation hours** and/or **walk-in studio hours** for ongoing design support.
 - Contribute to a cross-disciplinary **community of practice** alongside projects at every stage of development.
 - Present outcomes at a **public share event** at the end of the year.
@@ -96,7 +96,7 @@ A promising idea that is still forming needs brainstorming, consultation, and fr
 **Fellows at Research & Design and beyond:**
 
 - **Support from student consultants and designers**, guided by senior aiX Design Studio interns (see [The Design Studio](#the-design-studio) below).
-- **Up to $1,000 in AI credits** for developing and testing their project.
+- **Up to $1,000 in AI credits** for developing and testing their project (subject to project scope and allocation limits).
 
 ## A Community of Practice: "Everyone's Backyard" {#community-of-practice}
 
