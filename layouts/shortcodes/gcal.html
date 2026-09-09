@@ -4,12 +4,16 @@
 {{- $height := .Get "height" | default "240" -}}
 {{- $width := .Get "width" | default "560" -}}
 {{- $title := .Get "title" | default "Calendar" -}}
+{{- $intro := .Get "intro" | default "" -}}
 {{- if $src -}}
 {{- $q := $src | urlquery -}}
 {{- $embed := printf "https://calendar.google.com/calendar/embed?src=%s&ctz=%s&mode=%s&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=1" $q ($ctz | urlquery) $mode -}}
 {{- $add := printf "https://calendar.google.com/calendar/render?cid=%s" $q -}}
 {{- $ical := printf "webcal://calendar.google.com/calendar/ical/%s/public/basic.ics" $q -}}
 <div class="gcal-embed" style="width:100%;max-width:{{ $width }}px;margin:1rem auto;text-align:center;">
+  {{- with $intro }}
+  <p style="font-size:0.95rem;line-height:1.5;margin:0 0 0.6rem;text-align:center;">{{ . }}</p>
+  {{- end }}
   <iframe
     title="{{ $title }}"
     src="{{ $embed | safeURL }}"

@@ -56,9 +56,7 @@ sections:
       title: aiX Design Studio
       subtitle: ''
       text: |
-        Live from my calendar - always the current time and room.
-
-        {{< gcal src="c_dc1eb53aa392f7c7dac4e6bf681b4be24fa5fabb6d1d010ed3d59f67bd215a63@group.calendar.google.com" title="aiX Design Studio" mode="AGENDA" height="240" width="560" >}}
+        {{< gcal src="c_dc1eb53aa392f7c7dac4e6bf681b4be24fa5fabb6d1d010ed3d59f67bd215a63@group.calendar.google.com" title="aiX Design Studio" mode="AGENDA" height="240" width="560" intro="Live from my calendar - always the current time and room." >}}
     design:
       columns: '1'
 
