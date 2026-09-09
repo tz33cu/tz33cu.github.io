@@ -29,7 +29,7 @@ sections:
         longitude: '-73.958388'
       directions: Take the elevator to 10th floor, enter the double door, second office on the right.
       office_hours:
-        - 'Monday 13:30 to 15:30 (Uris 324) - Design Studio'
+        - 'aiX Design Studio - see the live calendar below for the current time and room'
       # appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
@@ -50,6 +50,17 @@ sections:
     #       captcha: false
     # design:
     #   columns: '1'
+
+  - block: markdown
+    content:
+      title: aiX Design Studio
+      subtitle: ''
+      text: |
+        Live from my calendar - always the current time and room.
+
+        {{< gcal src="c_dc1eb53aa392f7c7dac4e6bf681b4be24fa5fabb6d1d010ed3d59f67bd215a63@group.calendar.google.com" title="aiX Design Studio" mode="AGENDA" height="240" width="560" >}}
+    design:
+      columns: '1'
 
   - block: markdown
     content:
