@@ -78,3 +78,7 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# Research working files
+/reports/
+/research_notes/
