@@ -9,31 +9,32 @@ title: 'AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All 
 authors:
 - ahmedjaber
 - wangshuzhu
+- ayonroy
+- candace
+- Linnia Hawkins
 - Karthick Jayavelu
 - Justin Downes
 - Sameer Mohamed
-- Candace Agonafir
-- Linnia Hawkins
 - admin
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2025-09-01'
+date: '2026-05-08'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
 publishDate: '2025-10-07T15:45:51.435391Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
-publication_types: ["article"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv*'
-publication_short: ''
+publication: '*2026 IEEE Conference on Artificial Intelligence (CAI)*'
+publication_short: '*IEEE CAI 2026*'
 
-doi: 10.48550/arXiv.2509.21553
+doi: 10.1109/CAI68641.2026.11536364
 
 abstract: Climate data science faces persistent barriers stemming from the fragmented
   nature of data sources, heterogeneous formats, and the steep technical expertise
@@ -64,7 +65,7 @@ featured: false
 
 # Links
 url_pdf: 'https://arxiv.org/pdf/2509.21553'
-url_code: 'https://github.com/tz33cu/AutoClimDS'
+url_code: 'https://github.com/TZstats-Columbia/AutoClimDS'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -93,6 +94,8 @@ projects:
 - AutoClimDS
 
 links:
+- name: IEEE Xplore
+  url: https://doi.org/10.1109/CAI68641.2026.11536364
 - name: GitHub (TZstats-Columbia)
   url: https://github.com/TZstats-Columbia/AutoClimDS
 - name: arXiv

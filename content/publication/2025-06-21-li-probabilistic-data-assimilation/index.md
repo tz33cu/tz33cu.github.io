@@ -1,7 +1,7 @@
 ---
 title: "Probabilistic data assimilation for ensemble distribution projections with generative machine learning: A Lorenz '96 proof-of-concept"
 authors:
-- Shuolin Li
+- shawnli
 - admin
 - Alban Farchi
 - Marc Bocquet

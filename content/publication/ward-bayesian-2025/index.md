@@ -14,20 +14,20 @@ authors:
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2025-06-01'
+date: '2026-10-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
 publishDate: '2025-10-07T15:45:51.440089Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv*'
+publication: '*Social Networks*'
 publication_short: ''
 
-doi: 10.48550/arXiv.2506.21353
+doi: 10.1016/j.socnet.2026.06.001
 
 abstract: Aggregated relational data is widely collected to study social network theory.
   It has been used to address a variety of key problems in fields such as sociology,
@@ -58,7 +58,7 @@ tags:
 featured: true
 
 # Links
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1016/j.socnet.2026.06.001'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -86,6 +86,8 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 links:
+- name: Journal
+  url: https://doi.org/10.1016/j.socnet.2026.06.001
 - name: arXiv
   url: http://arxiv.org/abs/2506.21353
 ---

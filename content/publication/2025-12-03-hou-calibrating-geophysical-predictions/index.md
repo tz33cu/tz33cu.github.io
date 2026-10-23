@@ -5,7 +5,7 @@ authors:
 - Jiajin Sun
 - suba
 - peterjin
-- Shuolin Li
+- shawnli
 - admin
 author_notes: []
 date: '2025-12-01'
@@ -21,7 +21,7 @@ tags:
 - Uncertainty Quantification
 featured: false
 url_pdf: 'https://arxiv.org/pdf/2512.03081'
-url_code: ''
+url_code: 'https://github.com/TZstats-Columbia/Distribution-Informed-Prediction'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -36,4 +36,6 @@ projects: []
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2512.03081
+- name: GitHub (TZstats-Columbia)
+  url: https://github.com/TZstats-Columbia/Distribution-Informed-Prediction
 ---
