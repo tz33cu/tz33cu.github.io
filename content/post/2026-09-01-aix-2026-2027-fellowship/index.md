@@ -109,22 +109,25 @@ This year the aiX program will leverage **"Statistical Consulting and Introducti
 In addition, a small number of **senior design studio interns** with advanced **agentic AI skills** will be recruited to support project success and to guide the course-based student teams.
 
 {{% callout note %}}
-**There will not be an open call for design studio interns this year.** Students interested in this work should enroll in the course; senior intern positions will be filled by direct recruitment.
+**The design studio intern application is now open.** Students with advanced agentic AI skills can [apply through this form](https://docs.google.com/forms/d/e/1FAIpQLScpDy7UPsPB_gclStDkU4s0GOCH7pklqIhfDn-MqmbzPCk_rg/viewform).
+
+**Students are also encouraged to enroll in "Statistical Consulting and Introduction to Data Science."** It is the main way to join the Design Studio as a consultant or designer: you work directly with faculty fellows on real AI education projects across disciplines as part of your coursework. See the [course repository](https://github.com/TZstats-Columbia/ColabDataScience-DesignStudio) for details.
 {{% /callout %}}
 
 ---
 
-## Anticipated Timeline
+## Timeline
 
-| Target Dates | Key Activities |
+| When | Key Activities |
 |---|---|
 | **Fall 2026** | A&S faculty apply through the A&S AI Research and Education Fellowship program; other faculty submit requests through the [aiX request form](https://docs.google.com/forms/d/e/1FAIpQLScX9O9HVOdCvDquSEBICj1UroMPAl-tloHwCbWv6EyVHtJZtg/viewform). |
+| **Now open** | [Design studio intern application](https://docs.google.com/forms/d/e/1FAIpQLScpDy7UPsPB_gclStDkU4s0GOCH7pklqIhfDn-MqmbzPCk_rg/viewform). |
 | **Fall 2026** | **Bootcamp and program kick-off** — AI literacy and AI education design. |
 | **Fall–Spring** | Project design and development with student consultants and designers; Zoom consultation hours and walk-in studio hours; community-of-practice sessions. Projects that mature from ideation into design become eligible for intern support. |
 | **Spring 2027** | Second application cycle *(likely)*. |
 | **End of program year** | **Public share event.** |
 
-*All dates are targets and subject to change.*
+*For A&S faculty, application deadlines follow the A&S AI Research and Education Fellowship program (see the emails from the EVPAS). Spring 2027 dates will be posted here when confirmed.*
 
 ---
 
