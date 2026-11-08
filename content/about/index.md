@@ -56,8 +56,8 @@ sections:
         link:
           icon: graduation-cap
           icon_pack: fas
-          text: 'How to apply for MA mentored research.'
-          url: 'https://ma.stat.columbia.edu/ma-honors-research/'
+          text: 'Apply for Spring 2027 mentored research in the aiX lab.'
+          url: 'https://docs.google.com/forms/d/e/1FAIpQLSf23cmSPCT_4Pdu7Sw3r_x3h425s7l4FBpMk-4n9BVMdcotHQ/viewform'
       - title: Stay Informed
         content: >-
           Follow the [**TZStats aiX Lab on LinkedIn**](https://www.linkedin.com/company/aix-programs-columbia-university/) for lab news, and connect with Professor Zheng below.
