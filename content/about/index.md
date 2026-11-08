@@ -1,5 +1,5 @@
 ---
-title: About TZstats Converngence Lab
+title: About TZstats aiX Lab
 date: 2025-10-05
 
 type: landing
