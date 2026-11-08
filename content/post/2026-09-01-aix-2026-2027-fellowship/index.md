@@ -11,7 +11,7 @@ tags:
   - aiX
 ---
 
-The **aiX Faculty Fellowship Program** returns for 2026–2027. This year's fellowship continues to support faculty in designing curricular innovations on *teaching with AI* and will focus more on curriculum development on *teaching about AI* within the context of their own discipline. The call for applications is forthcoming — we aim to open applications in **early October 2026**.
+The **aiX Faculty Fellowship Program** returns for 2026–2027. This year's fellowship continues to support faculty in designing curricular innovations on *teaching with AI* and will focus more on curriculum development on *teaching about AI* within the context of their own discipline. This fall, the aiX fellowship is part of the **AI Research and Education Fellowship program of Arts and Sciences**. Interested A&S faculty should apply through that program; other faculty with AI education ideas may [submit a request through this form](https://docs.google.com/forms/d/e/1FAIpQLScX9O9HVOdCvDquSEBICj1UroMPAl-tloHwCbWv6EyVHtJZtg/viewform).
 
 <!--more-->
 
@@ -19,14 +19,12 @@ The **aiX Faculty Fellowship Program** returns for 2026–2027. This year's fell
 
 # aiX Faculty Fellowship Program, 2026–2027
 
-  + **Application opens:** early October 2026 *(target)*
-  + **Fellow selection:** mid-October 2026 *(target)*
-  + **Program kick-off:** late October 2026 *(target)*
-  + **Application materials:** forthcoming
+  + **Arts and Sciences faculty:** apply through the **A&S AI Research and Education Fellowship program**, as described in the emails from the EVPAS
+  + **Other faculty:** [submit a request through this form](https://docs.google.com/forms/d/e/1FAIpQLScX9O9HVOdCvDquSEBICj1UroMPAl-tloHwCbWv6EyVHtJZtg/viewform)
   + **New this year:** partnerships with schools and departments, and a **build-readiness** model for matching projects to support
 
 {{% callout note %}}
-**Dates are not yet firm.** The timeline below reflects our current plan and may shift. A second application cycle in the Spring is likely. Check back here, or write to [tian.zheng@columbia.edu](mailto:tian.zheng@columbia.edu) to be notified when the application opens.
+**This fall, the aiX fellowship is part of the A&S AI Research and Education Fellowship program.** A&S faculty should follow the application process laid out in the emails from the EVPAS. A second application cycle in the Spring is likely. Questions? Write to [tian.zheng@columbia.edu](mailto:tian.zheng@columbia.edu).
 {{% /callout %}}
 
 ---
@@ -120,9 +118,8 @@ In addition, a small number of **senior design studio interns** with advanced **
 
 | Target Dates | Key Activities |
 |---|---|
-| **Early October 2026** | Application opens. |
-| **Mid-October 2026** | Fellow selection and notifications. |
-| **Late October 2026** | **Bootcamp and program kick-off** — AI literacy and AI education design. |
+| **Fall 2026** | A&S faculty apply through the A&S AI Research and Education Fellowship program; other faculty submit requests through the [aiX request form](https://docs.google.com/forms/d/e/1FAIpQLScX9O9HVOdCvDquSEBICj1UroMPAl-tloHwCbWv6EyVHtJZtg/viewform). |
+| **Fall 2026** | **Bootcamp and program kick-off** — AI literacy and AI education design. |
 | **Fall–Spring** | Project design and development with student consultants and designers; Zoom consultation hours and walk-in studio hours; community-of-practice sessions. Projects that mature from ideation into design become eligible for intern support. |
 | **Spring 2027** | Second application cycle *(likely)*. |
 | **End of program year** | **Public share event.** |
@@ -133,9 +130,12 @@ In addition, a small number of **senior design studio interns** with advanced **
 
 ## Application
 
-**Application process and materials are forthcoming.** Details on eligibility and the application process will be posted here when the call opens in early October.
+This fall, the aiX lab's fellowship program is part of the **AI Research and Education Fellowship program of Arts and Sciences**.
 
-In the meantime, faculty who are considering applying are welcome to start thinking about:
+- **Arts and Sciences faculty:** apply through the A&S AI Research and Education Fellowship program, as laid out in the emails from the EVPAS.
+- **Other faculty with AI education ideas:** [submit a request through this form](https://docs.google.com/forms/d/e/1FAIpQLScX9O9HVOdCvDquSEBICj1UroMPAl-tloHwCbWv6EyVHtJZtg/viewform).
+
+When preparing an application or request, it helps to think about:
 
 - A course or curricular context in their discipline where AI raises a real question for them.
 - What they would like to learn, build, or redesign during the fellowship year.
